@@ -1,0 +1,13 @@
+import CSharpInterop
+
+;;; <summary>
+;;; The main entry point for the application.
+;;; </summary>
+main
+	record workVars
+		result, int
+	endrecord
+proc
+	result = CSharpInterop.Calculator.Add(1,1);
+	nop
+endmain
