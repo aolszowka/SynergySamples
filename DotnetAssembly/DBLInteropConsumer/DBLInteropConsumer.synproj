@@ -19,8 +19,8 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <IncludeDebugInformation>true</IncludeDebugInformation>
-    <OutputPath>$(SolutionDir)\$(Configuration)\$(Platform)</OutputPath>
-    <UnevaluatedOutputPath>EXEDIR:</UnevaluatedOutputPath>
+    <OutputPath>\\aceo\r\ForSupport</OutputPath>
+    <UnevaluatedOutputPath>EXE:</UnevaluatedOutputPath>
     <PlatformTarget>x86</PlatformTarget>
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
     <DebugOptimize>Debug</DebugOptimize>
@@ -35,8 +35,8 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <IncludeDebugInformation>true</IncludeDebugInformation>
-    <OutputPath>$(SolutionDir)\$(Configuration)\$(Platform)</OutputPath>
-    <UnevaluatedOutputPath>EXEDIR:</UnevaluatedOutputPath>
+    <OutputPath>\\aceo\r\ForSupport</OutputPath>
+    <UnevaluatedOutputPath>EXE:</UnevaluatedOutputPath>
     <PlatformTarget>x86</PlatformTarget>
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
     <DebugOptimize>Optimize</DebugOptimize>
