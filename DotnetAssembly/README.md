@@ -39,7 +39,9 @@ There are some changes to how the library is created that should be noted:
 
     1. interop.dbl
 
-        This is a small wrapper which simply disables the ability to step though this code in debugging (using [.NODEBUG][3]) and then imports interop1.dbl. It is unclear why Synergex disables the debugging of this interop class. See this Synergex Answers Question: [Why Does GENNET40 (.NET to Synergy Interop Generator) Generate a .NODEBUG for Interop Code?][4]
+        This is a small wrapper which simply disables the ability to step though this code in debugging (using [.NODEBUG][3]) and then imports interop1.dbl. Synergex generates this because they feel that the debugging experience is best improved by this behavior. See this Synergex Answers Question: [Why Does GENNET40 (.NET to Synergy Interop Generator) Generate a .NODEBUG for Interop Code?][4]
+        
+        From the Authors standpoint it is more desirable to enable debugging as you are then able to set a breakpoint in Traditional Synergy Prior to the DotnetAssembly() Call allowing you to attach the CLR Debugger prior to execution of CLR code. It is left as an exercise to the reader to determine what is best for their process.
 
     2. interop.inc
 
