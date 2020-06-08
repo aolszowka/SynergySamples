@@ -2,10 +2,13 @@
 {
     public static class Calculator
     {
-        public static int Add( int a, int b )
+        public static int Add(int a, int b)
         {
             System.Windows.Interactivity.EventTrigger et = new System.Windows.Interactivity.EventTrigger();
-            int result = a + b;
+            Form1 form1 = new Form1();
+            form1.Show();
+
+            int result = 9;// a + b;
             return result;
         }
     }
