@@ -1,0 +1,152 @@
+namespace CSharpInterop__ 
+	
+	
+	public class af_CSharpInterop__
+		
+			private static InternalDetails__Data, @DotNetAssembly
+				public static property Property__, @DotNetAssembly
+				method get
+				proc
+				if(InternalDetails__Data == ^NULL)
+					InternalDetails__Data = new DotNetAssembly("EXE:CSharpInterop.dll")
+				mreturn InternalDetails__Data
+				endmethod
+				endproperty
+				
+	
+	endclass
+
+endnamespace
+namespace CSharpInterop 
+	
+	
+	public class Calculator Extends DotNetObject
+		
+		public  method Calculator
+		endparams 
+				parent(DotNetObject.Initialize__Internal__("CSharpInterop.Calculator", CSharpInterop__.af_CSharpInterop__.Property__), 1)
+		proc
+			begin
+				gennet_init_internal_handles()
+				
+			end
+		
+		endmethod
+		
+		public  method Calculator
+		id, int
+		internal, @Calculator
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public static method op_explicit, @CSharpInterop.Calculator
+		convert, @object
+		
+		endparams
+		proc
+			begin
+				data nul, @CSharpInterop.Calculator
+				mreturn new CSharpInterop.Calculator(((dotNetObject)convert).SYNNETInternalHandle, nul)
+			end
+		
+		endmethod
+		
+		public static method Add, int
+		p__a, int
+		p__b, int
+		
+		endparams
+		proc
+			begin
+				data classObject, @DotNetObject, (DotNetObject)CSharpInterop__.af_CSharpInterop__.Property__
+				data ret, int
+				classObject.CallV("CSharpInterop.Calculator.Add",ret,p__a,p__b)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method GetType, @System.Type
+		endparams
+		proc
+			begin
+				data ret, @System.Type
+				parent.CallV("GetType",ret)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public override method ToString, @string
+		endparams
+		proc
+			begin
+				data ret, @string
+				parent.CallV("ToString",ret)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace mscorlib__ 
+	
+	
+	public class af_mscorlib__
+		
+			private static InternalDetails__Data, @DotNetAssembly
+				public static property Property__, @DotNetAssembly
+				method get
+				proc
+				if(InternalDetails__Data == ^NULL)
+					InternalDetails__Data = new DotNetAssembly("mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089")
+				mreturn InternalDetails__Data
+				endmethod
+				endproperty
+				
+	
+	endclass
+
+endnamespace
+namespace System 
+	
+	
+	public class Type Extends DotNetObject
+		
+		public  method Type
+		id, int
+		internal, @Type
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace

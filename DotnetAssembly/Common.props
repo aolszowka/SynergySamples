@@ -4,7 +4,6 @@
     <!-- START: Work Around Synergy Bug Reported On Case #096963 -->
     <CommonEXEDirectory>$(MSBuildThisFileDirectory)bin</CommonEXEDirectory>
     <!-- END: Work Around Synergy Bug Reported On Case #096963 -->
-
-    <CommonEnvVars>EXE=$(CommonEXEDirectory);EXEDIR=$(SolutionDir)$(Configuration)\$(Platform)</CommonEnvVars>
+    <CommonEnvVars>EXE=$(CommonEXEDirectory);NETSRC=$(SolutionDir)DBLInterop</CommonEnvVars>
   </PropertyGroup>
 </Project>

@@ -19,7 +19,7 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <IncludeDebugInformation>true</IncludeDebugInformation>
-    <OutputPath>\\aceo\r\ForSupport</OutputPath>
+    <OutputPath>$(CommonEXEDirectory)</OutputPath>
     <UnevaluatedOutputPath>EXE:</UnevaluatedOutputPath>
     <PlatformTarget>x86</PlatformTarget>
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
@@ -27,24 +27,24 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
     <IncludeDebugInformation>true</IncludeDebugInformation>
-    <OutputPath>$(SolutionDir)\$(Configuration)\$(Platform)</OutputPath>
-    <UnevaluatedOutputPath>EXEDIR:</UnevaluatedOutputPath>
+    <OutputPath>$(CommonEXEDirectory)</OutputPath>
+    <UnevaluatedOutputPath>EXE:</UnevaluatedOutputPath>
     <PlatformTarget>x64</PlatformTarget>
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
     <DebugOptimize>Debug</DebugOptimize>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <IncludeDebugInformation>true</IncludeDebugInformation>
-    <OutputPath>\\aceo\r\ForSupport</OutputPath>
+    <OutputPath>$(CommonEXEDirectory)</OutputPath>
     <UnevaluatedOutputPath>EXE:</UnevaluatedOutputPath>
     <PlatformTarget>x86</PlatformTarget>
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
     <DebugOptimize>Optimize</DebugOptimize>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
-    <IncludeDebugInformation>true</IncludeDebugInformation>
-    <OutputPath>$(SolutionDir)\$(Configuration)\$(Platform)</OutputPath>
-    <UnevaluatedOutputPath>EXEDIR:</UnevaluatedOutputPath>
+    <IncludeDebugInformation>False</IncludeDebugInformation>
+    <OutputPath>$(CommonEXEDirectory)</OutputPath>
+    <UnevaluatedOutputPath>EXE:</UnevaluatedOutputPath>
     <PlatformTarget>x64</PlatformTarget>
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
     <DebugOptimize>Optimize</DebugOptimize>
