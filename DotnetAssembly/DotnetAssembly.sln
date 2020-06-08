@@ -8,6 +8,15 @@ EndProject
 Project("{BBD0F5D1-1CC4-42FD-BA4C-A96779C64378}") = "DBLInteropConsumer", "DBLInteropConsumer\DBLInteropConsumer.synproj", "{E048AB37-675B-4831-B123-31EEE3F1B133}"
 EndProject
 Project("{BBD0F5D1-1CC4-42FD-BA4C-A96779C64378}") = "DBLInterop", "DBLInterop\DBLInterop.synproj", "{9C9AAA94-58C9-4399-8448-CD47A5A950D3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0B4D7CB4-21E4-4C55-9B4F-09EBBE96185B} = {0B4D7CB4-21E4-4C55-9B4F-09EBBE96185B}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8E19C39C-D93E-4CBE-BE21-C9A6C523B77F}"
+	ProjectSection(SolutionItems) = preProject
+		gennetwrappers.bat = gennetwrappers.bat
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

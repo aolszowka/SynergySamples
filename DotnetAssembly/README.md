@@ -71,3 +71,21 @@ There are some changes to how the library is created that should be noted:
 
 [3]: https://www.synergex.com/docs/#lrm/lrmChap5NODEBUG.htm
 [4]: https://synergexresourcecenter.force.com/siteanswer?id=a2Z0d000000RTxjEAG
+
+## Steves Notes
+
+This solution should now build and run. I made the following changes:
+
+1. Made all three projects target your EXE: folder.
+2. Removed the EXEDIR: environment variable from Common.props
+3. Added a new NETSRC: environment variable in Common.props
+4. Added a batch file named gennetwrappers.dbl and defined the commands to execute gennet40.
+5. Plugged in the execution of the batch file as a pre-build task for the DBLInterop project.
+6. Declared a dependency on the CSharpInterop project from the DBLInterop project.
+7. Modified Program.dbl to include the .NET namespaces via the .inc file, and to display the result that comes back from C#
+
+It is now possible to clone the source direct from GitHub, open the solution in VS, build, run, and it works.
+
+Yes, there is a batch file involved, and yes, I had to declare a dependency on the C# project to get the build order right, but those are one time things, not too hard.
+
+As for the numbered source files, gennet40 when used in REAL scenarios can generate some truly gargantuan source files, the numbered files and single file that includes them are are by design. As is the .inc file which provides an effective way for traditional Synergy consumer code to import all of the necessary namespaces. Again, by design.
