@@ -1,4 +1,17 @@
 Import System
+Import System.Windows.Media.Animation
+Import System.Windows.Data
+Import System.Windows
+Import System.Windows.Input
+Import System.Windows.Media
+Import System.Windows.Media.Media3D
+Import System.Windows.Controls
+Import System.Windows.Markup
+Import System.Windows.Media.Effects
+Import System.Windows.Threading
 Import CSharpInterop
 Import CSharpInterop__
 Import mscorlib__
+Import PresentationFramework__
+Import PresentationCore__
+Import WindowsBase__
