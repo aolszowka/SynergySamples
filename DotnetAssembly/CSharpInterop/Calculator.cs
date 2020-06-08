@@ -2,9 +2,12 @@
 {
     public static class Calculator
     {
-        public static int Add( int a, int b )
+        public static int Add(int a, int b)
         {
-            int result = a + b;
+            Form1 form1 = new Form1();
+            form1.Show();
+
+            int result = 9;// a + b;
             return result;
         }
     }
