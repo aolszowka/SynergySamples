@@ -12,6 +12,6 @@ main
 	endrecord
 proc
 	result = CSharpInterop.Calculator.Add(number1,number2)
-    Console.WriteLine("According to C#, " + %string(number1) + " + " + %string(number2) + " = " + %string(result))
+    ;Console.WriteLine("According to C#, " + %string(number1) + " + " + %string(number2) + " = " + %string(result))
 	sleep 3
 endmain

@@ -107,6 +107,7775 @@ endnamespace
 namespace CSharpInterop 
 	
 	
+	public class Form1 Extends DotNetObject
+		
+		public AutoSizeChanged, @eAutoSizeChanged
+		
+		public AutoValidateChanged, @eAutoValidateChanged
+		
+		public HelpButtonClicked, @eHelpButtonClicked
+		
+		public MaximizedBoundsChanged, @eMaximizedBoundsChanged
+		
+		public MaximumSizeChanged, @eMaximumSizeChanged
+		
+		public MarginChanged, @eMarginChanged
+		
+		public MinimumSizeChanged, @eMinimumSizeChanged
+		
+		public TabIndexChanged, @eTabIndexChanged
+		
+		public TabStopChanged, @eTabStopChanged
+		
+		public Activated, @eActivated
+		
+		public Closing, @eClosing
+		
+		public Closed, @eClosed
+		
+		public Deactivate, @eDeactivate
+		
+		public FormClosing, @eFormClosing
+		
+		public FormClosed, @eFormClosed
+		
+		public Load, @eLoad
+		
+		public MdiChildActivate, @eMdiChildActivate
+		
+		public MenuComplete, @eMenuComplete
+		
+		public MenuStart, @eMenuStart
+		
+		public RightToLeftLayoutChanged, @eRightToLeftLayoutChanged
+		
+		public Shown, @eShown
+		
+		public DpiChanged, @eDpiChanged
+		
+		public ResizeBegin, @eResizeBegin
+		
+		public ResizeEnd, @eResizeEnd
+		
+		public Scroll, @eScroll
+		
+		public BackColorChanged, @eBackColorChanged
+		
+		public BackgroundImageChanged, @eBackgroundImageChanged
+		
+		public BackgroundImageLayoutChanged, @eBackgroundImageLayoutChanged
+		
+		public BindingContextChanged, @eBindingContextChanged
+		
+		public CausesValidationChanged, @eCausesValidationChanged
+		
+		public ClientSizeChanged, @eClientSizeChanged
+		
+		public ContextMenuChanged, @eContextMenuChanged
+		
+		public ContextMenuStripChanged, @eContextMenuStripChanged
+		
+		public CursorChanged, @eCursorChanged
+		
+		public DockChanged, @eDockChanged
+		
+		public EnabledChanged, @eEnabledChanged
+		
+		public FontChanged, @eFontChanged
+		
+		public ForeColorChanged, @eForeColorChanged
+		
+		public LocationChanged, @eLocationChanged
+		
+		public RegionChanged, @eRegionChanged
+		
+		public RightToLeftChanged, @eRightToLeftChanged
+		
+		public SizeChanged, @eSizeChanged
+		
+		public TextChanged, @eTextChanged
+		
+		public VisibleChanged, @eVisibleChanged
+		
+		public Click, @eClick
+		
+		public ControlAdded, @eControlAdded
+		
+		public ControlRemoved, @eControlRemoved
+		
+		public DragDrop, @eDragDrop
+		
+		public DragEnter, @eDragEnter
+		
+		public DragOver, @eDragOver
+		
+		public DragLeave, @eDragLeave
+		
+		public GiveFeedback, @eGiveFeedback
+		
+		public HandleCreated, @eHandleCreated
+		
+		public HandleDestroyed, @eHandleDestroyed
+		
+		public HelpRequested, @eHelpRequested
+		
+		public Invalidated, @eInvalidated
+		
+		public PaddingChanged, @ePaddingChanged
+		
+		public Paint, @ePaint
+		
+		public QueryContinueDrag, @eQueryContinueDrag
+		
+		public DoubleClick, @eDoubleClick
+		
+		public Enter, @eEnter
+		
+		public GotFocus, @eGotFocus
+		
+		public KeyDown, @eKeyDown
+		
+		public KeyPress, @eKeyPress
+		
+		public KeyUp, @eKeyUp
+		
+		public Layout, @eLayout
+		
+		public Leave, @eLeave
+		
+		public LostFocus, @eLostFocus
+		
+		public MouseClick, @eMouseClick
+		
+		public MouseDoubleClick, @eMouseDoubleClick
+		
+		public MouseCaptureChanged, @eMouseCaptureChanged
+		
+		public MouseDown, @eMouseDown
+		
+		public MouseEnter, @eMouseEnter
+		
+		public MouseLeave, @eMouseLeave
+		
+		public DpiChangedBeforeParent, @eDpiChangedBeforeParent
+		
+		public DpiChangedAfterParent, @eDpiChangedAfterParent
+		
+		public MouseHover, @eMouseHover
+		
+		public MouseMove, @eMouseMove
+		
+		public MouseUp, @eMouseUp
+		
+		public MouseWheel, @eMouseWheel
+		
+		public Move, @eMove
+		
+		public PreviewKeyDown, @ePreviewKeyDown
+		
+		public Resize, @eResize
+		
+		public ChangeUICues, @eChangeUICues
+		
+		public StyleChanged, @eStyleChanged
+		
+		public SystemColorsChanged, @eSystemColorsChanged
+		
+		public Validating, @eValidating
+		
+		public Validated, @eValidated
+		
+		public ParentChanged, @eParentChanged
+		
+		public ImeModeChanged, @eImeModeChanged
+		
+		public Disposed, @eDisposed
+		
+		public  method Form1
+		endparams 
+				parent(DotNetObject.Initialize__Internal__("CSharpInterop.Form1", CSharpInterop__.af_CSharpInterop__.Property__), 1)
+		proc
+			begin
+				gennet_init_internal_handles()
+				
+			end
+		
+		endmethod
+		
+		public  method Form1
+		id, int
+		internal, @Form1
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public  property AcceptButton, @System.Windows.Forms.IButtonControl
+			Method get
+			proc
+				begin
+				data tmp, @System.Windows.Forms.IButtonControl
+				parent.GetProperty("AcceptButton",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Windows.Forms.IButtonControl(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("AcceptButton", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property ActiveMdiChild, @System.Windows.Forms.Form
+			Method get
+			proc
+				begin
+				data tmp, @System.Windows.Forms.Form
+				parent.GetProperty("ActiveMdiChild",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Windows.Forms.Form(0, tmp)
+				
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property AllowTransparency, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("AllowTransparency",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("AllowTransparency", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property AutoScale, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("AutoScale",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("AutoScale", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property AutoScaleBaseSize, @System.Drawing.Size
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.Size
+				parent.GetProperty("AutoScaleBaseSize",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.Size(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("AutoScaleBaseSize", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property AutoScroll, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("AutoScroll",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("AutoScroll", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property AutoSize, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("AutoSize",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("AutoSize", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property AutoSizeMode, System.Windows.Forms.AutoSizeMode
+			Method get
+			proc
+				begin
+				data tmp, System.Windows.Forms.AutoSizeMode
+				parent.GetProperty("AutoSizeMode",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("AutoSizeMode", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property AutoValidate, System.Windows.Forms.AutoValidate
+			Method get
+			proc
+				begin
+				data tmp, System.Windows.Forms.AutoValidate
+				parent.GetProperty("AutoValidate",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("AutoValidate", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property BackColor, @System.Drawing.Color
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.Color
+				parent.GetProperty("BackColor",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.Color(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("BackColor", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property FormBorderStyle, System.Windows.Forms.FormBorderStyle
+			Method get
+			proc
+				begin
+				data tmp, System.Windows.Forms.FormBorderStyle
+				parent.GetProperty("FormBorderStyle",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("FormBorderStyle", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property CancelButton, @System.Windows.Forms.IButtonControl
+			Method get
+			proc
+				begin
+				data tmp, @System.Windows.Forms.IButtonControl
+				parent.GetProperty("CancelButton",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Windows.Forms.IButtonControl(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("CancelButton", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property ClientSize, @System.Drawing.Size
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.Size
+				parent.GetProperty("ClientSize",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.Size(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("ClientSize", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property ControlBox, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("ControlBox",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("ControlBox", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property DesktopBounds, @System.Drawing.Rectangle
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.Rectangle
+				parent.GetProperty("DesktopBounds",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.Rectangle(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("DesktopBounds", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property DesktopLocation, @System.Drawing.Point
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.Point
+				parent.GetProperty("DesktopLocation",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.Point(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("DesktopLocation", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property DialogResult, System.Windows.Forms.DialogResult
+			Method get
+			proc
+				begin
+				data tmp, System.Windows.Forms.DialogResult
+				parent.GetProperty("DialogResult",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("DialogResult", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property HelpButton, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("HelpButton",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("HelpButton", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Icon, @System.Drawing.Icon
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.Icon
+				parent.GetProperty("Icon",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.Icon(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("Icon", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property IsMdiChild, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("IsMdiChild",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property IsMdiContainer, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("IsMdiContainer",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("IsMdiContainer", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property IsRestrictedWindow, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("IsRestrictedWindow",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property KeyPreview, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("KeyPreview",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("KeyPreview", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Location, @System.Drawing.Point
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.Point
+				parent.GetProperty("Location",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.Point(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("Location", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property MaximumSize, @System.Drawing.Size
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.Size
+				parent.GetProperty("MaximumSize",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.Size(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("MaximumSize", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property MainMenuStrip, @System.Windows.Forms.MenuStrip
+			Method get
+			proc
+				begin
+				data tmp, @System.Windows.Forms.MenuStrip
+				parent.GetProperty("MainMenuStrip",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Windows.Forms.MenuStrip(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("MainMenuStrip", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Margin, @System.Windows.Forms.Padding
+			Method get
+			proc
+				begin
+				data tmp, @System.Windows.Forms.Padding
+				parent.GetProperty("Margin",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Windows.Forms.Padding(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("Margin", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Menu, @System.Windows.Forms.MainMenu
+			Method get
+			proc
+				begin
+				data tmp, @System.Windows.Forms.MainMenu
+				parent.GetProperty("Menu",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Windows.Forms.MainMenu(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("Menu", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property MinimumSize, @System.Drawing.Size
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.Size
+				parent.GetProperty("MinimumSize",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.Size(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("MinimumSize", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property MaximizeBox, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("MaximizeBox",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("MaximizeBox", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property MdiChildren, [#]@System.Windows.Forms.Form
+			Method get
+			proc
+				begin
+				data tmp, [#]@System.Windows.Forms.Form
+				data nul, @System.Windows.Forms.Form
+				tmp = new System.Windows.Forms.Form[1]
+				tmp[1] = new System.Windows.Forms.Form(0, nul)
+				parent.GetProperty("MdiChildren",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property MdiParent, @System.Windows.Forms.Form
+			Method get
+			proc
+				begin
+				data tmp, @System.Windows.Forms.Form
+				parent.GetProperty("MdiParent",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Windows.Forms.Form(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("MdiParent", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property MergedMenu, @System.Windows.Forms.MainMenu
+			Method get
+			proc
+				begin
+				data tmp, @System.Windows.Forms.MainMenu
+				parent.GetProperty("MergedMenu",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Windows.Forms.MainMenu(0, tmp)
+				
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property MinimizeBox, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("MinimizeBox",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("MinimizeBox", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Modal, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("Modal",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Opacity, id
+			Method get
+			proc
+				begin
+				mreturn (id)parent.GetProperty("Opacity")
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("Opacity", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property OwnedForms, [#]@System.Windows.Forms.Form
+			Method get
+			proc
+				begin
+				data tmp, [#]@System.Windows.Forms.Form
+				data nul, @System.Windows.Forms.Form
+				tmp = new System.Windows.Forms.Form[1]
+				tmp[1] = new System.Windows.Forms.Form(0, nul)
+				parent.GetProperty("OwnedForms",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Owner, @System.Windows.Forms.Form
+			Method get
+			proc
+				begin
+				data tmp, @System.Windows.Forms.Form
+				parent.GetProperty("Owner",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Windows.Forms.Form(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("Owner", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property RestoreBounds, @System.Drawing.Rectangle
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.Rectangle
+				parent.GetProperty("RestoreBounds",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.Rectangle(0, tmp)
+				
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property RightToLeftLayout, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("RightToLeftLayout",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("RightToLeftLayout", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property ShowInTaskbar, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("ShowInTaskbar",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("ShowInTaskbar", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property ShowIcon, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("ShowIcon",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("ShowIcon", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Size, @System.Drawing.Size
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.Size
+				parent.GetProperty("Size",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.Size(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("Size", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property SizeGripStyle, System.Windows.Forms.SizeGripStyle
+			Method get
+			proc
+				begin
+				data tmp, System.Windows.Forms.SizeGripStyle
+				parent.GetProperty("SizeGripStyle",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("SizeGripStyle", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property StartPosition, System.Windows.Forms.FormStartPosition
+			Method get
+			proc
+				begin
+				data tmp, System.Windows.Forms.FormStartPosition
+				parent.GetProperty("StartPosition",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("StartPosition", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property TabIndex, int
+			Method get
+			proc
+				begin
+				data tmp, int
+				parent.GetProperty("TabIndex",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("TabIndex", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property TabStop, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("TabStop",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("TabStop", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Text, @string
+			Method get
+			proc
+				begin
+				mreturn (@string)parent.GetProperty("Text")
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("Text", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property TopLevel, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("TopLevel",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("TopLevel", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property TopMost, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("TopMost",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("TopMost", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property TransparencyKey, @System.Drawing.Color
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.Color
+				parent.GetProperty("TransparencyKey",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.Color(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("TransparencyKey", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property WindowState, System.Windows.Forms.FormWindowState
+			Method get
+			proc
+				begin
+				data tmp, System.Windows.Forms.FormWindowState
+				parent.GetProperty("WindowState",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("WindowState", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property AutoScaleDimensions, @System.Drawing.SizeF
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.SizeF
+				parent.GetProperty("AutoScaleDimensions",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.SizeF(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("AutoScaleDimensions", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property AutoScaleMode, System.Windows.Forms.AutoScaleMode
+			Method get
+			proc
+				begin
+				data tmp, System.Windows.Forms.AutoScaleMode
+				parent.GetProperty("AutoScaleMode",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("AutoScaleMode", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property BindingContext, @System.Windows.Forms.BindingContext
+			Method get
+			proc
+				begin
+				data tmp, @System.Windows.Forms.BindingContext
+				parent.GetProperty("BindingContext",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Windows.Forms.BindingContext(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("BindingContext", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property ActiveControl, @System.Windows.Forms.Control
+			Method get
+			proc
+				begin
+				data tmp, @System.Windows.Forms.Control
+				parent.GetProperty("ActiveControl",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Windows.Forms.Control(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("ActiveControl", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property CurrentAutoScaleDimensions, @System.Drawing.SizeF
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.SizeF
+				parent.GetProperty("CurrentAutoScaleDimensions",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.SizeF(0, tmp)
+				
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property ParentForm, @System.Windows.Forms.Form
+			Method get
+			proc
+				begin
+				data tmp, @System.Windows.Forms.Form
+				parent.GetProperty("ParentForm",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Windows.Forms.Form(0, tmp)
+				
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property AutoScrollMargin, @System.Drawing.Size
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.Size
+				parent.GetProperty("AutoScrollMargin",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.Size(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("AutoScrollMargin", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property AutoScrollPosition, @System.Drawing.Point
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.Point
+				parent.GetProperty("AutoScrollPosition",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.Point(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("AutoScrollPosition", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property AutoScrollMinSize, @System.Drawing.Size
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.Size
+				parent.GetProperty("AutoScrollMinSize",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.Size(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("AutoScrollMinSize", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property DisplayRectangle, @System.Drawing.Rectangle
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.Rectangle
+				parent.GetProperty("DisplayRectangle",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.Rectangle(0, tmp)
+				
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property HorizontalScroll, @System.Windows.Forms.HScrollProperties
+			Method get
+			proc
+				begin
+				data tmp, @System.Windows.Forms.HScrollProperties
+				parent.GetProperty("HorizontalScroll",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Windows.Forms.HScrollProperties(0, tmp)
+				
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property VerticalScroll, @System.Windows.Forms.VScrollProperties
+			Method get
+			proc
+				begin
+				data tmp, @System.Windows.Forms.VScrollProperties
+				parent.GetProperty("VerticalScroll",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Windows.Forms.VScrollProperties(0, tmp)
+				
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property DockPadding, @System.Windows.Forms.ScrollableControl.DockPaddingEdges
+			Method get
+			proc
+				begin
+				data tmp, @System.Windows.Forms.ScrollableControl.DockPaddingEdges
+				parent.GetProperty("DockPadding",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Windows.Forms.ScrollableControl.DockPaddingEdges(0, tmp)
+				
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property AccessibilityObject, @System.Windows.Forms.AccessibleObject
+			Method get
+			proc
+				begin
+				data tmp, @System.Windows.Forms.AccessibleObject
+				parent.GetProperty("AccessibilityObject",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Windows.Forms.AccessibleObject(0, tmp)
+				
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property AccessibleDefaultActionDescription, @string
+			Method get
+			proc
+				begin
+				mreturn (@string)parent.GetProperty("AccessibleDefaultActionDescription")
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("AccessibleDefaultActionDescription", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property AccessibleDescription, @string
+			Method get
+			proc
+				begin
+				mreturn (@string)parent.GetProperty("AccessibleDescription")
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("AccessibleDescription", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property AccessibleName, @string
+			Method get
+			proc
+				begin
+				mreturn (@string)parent.GetProperty("AccessibleName")
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("AccessibleName", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property AccessibleRole, System.Windows.Forms.AccessibleRole
+			Method get
+			proc
+				begin
+				data tmp, System.Windows.Forms.AccessibleRole
+				parent.GetProperty("AccessibleRole",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("AccessibleRole", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property AllowDrop, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("AllowDrop",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("AllowDrop", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Anchor, System.Windows.Forms.AnchorStyles
+			Method get
+			proc
+				begin
+				data tmp, System.Windows.Forms.AnchorStyles
+				parent.GetProperty("Anchor",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("Anchor", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property AutoScrollOffset, @System.Drawing.Point
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.Point
+				parent.GetProperty("AutoScrollOffset",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.Point(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("AutoScrollOffset", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property LayoutEngine, @System.Windows.Forms.Layout.LayoutEngine
+			Method get
+			proc
+				begin
+				data tmp, @System.Windows.Forms.Layout.LayoutEngine
+				parent.GetProperty("LayoutEngine",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Windows.Forms.Layout.LayoutEngine(0, tmp)
+				
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property BackgroundImage, @System.Drawing.Image
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.Image
+				parent.GetProperty("BackgroundImage",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.Image(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("BackgroundImage", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property BackgroundImageLayout, System.Windows.Forms.ImageLayout
+			Method get
+			proc
+				begin
+				data tmp, System.Windows.Forms.ImageLayout
+				parent.GetProperty("BackgroundImageLayout",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("BackgroundImageLayout", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Bottom, int
+			Method get
+			proc
+				begin
+				data tmp, int
+				parent.GetProperty("Bottom",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Bounds, @System.Drawing.Rectangle
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.Rectangle
+				parent.GetProperty("Bounds",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.Rectangle(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("Bounds", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property CanFocus, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("CanFocus",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property CanSelect, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("CanSelect",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Capture, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("Capture",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("Capture", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property CausesValidation, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("CausesValidation",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("CausesValidation", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property ClientRectangle, @System.Drawing.Rectangle
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.Rectangle
+				parent.GetProperty("ClientRectangle",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.Rectangle(0, tmp)
+				
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property CompanyName, @string
+			Method get
+			proc
+				begin
+				mreturn (@string)parent.GetProperty("CompanyName")
+				
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property ContainsFocus, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("ContainsFocus",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property ContextMenu, @System.Windows.Forms.ContextMenu
+			Method get
+			proc
+				begin
+				data tmp, @System.Windows.Forms.ContextMenu
+				parent.GetProperty("ContextMenu",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Windows.Forms.ContextMenu(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("ContextMenu", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property ContextMenuStrip, @System.Windows.Forms.ContextMenuStrip
+			Method get
+			proc
+				begin
+				data tmp, @System.Windows.Forms.ContextMenuStrip
+				parent.GetProperty("ContextMenuStrip",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Windows.Forms.ContextMenuStrip(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("ContextMenuStrip", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Controls, @System.Windows.Forms.Control.ControlCollection
+			Method get
+			proc
+				begin
+				data tmp, @System.Windows.Forms.Control.ControlCollection
+				parent.GetProperty("Controls",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Windows.Forms.Control.ControlCollection(0, tmp)
+				
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Created, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("Created",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Cursor, @System.Windows.Forms.Cursor
+			Method get
+			proc
+				begin
+				data tmp, @System.Windows.Forms.Cursor
+				parent.GetProperty("Cursor",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Windows.Forms.Cursor(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("Cursor", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property DataBindings, @System.Windows.Forms.ControlBindingsCollection
+			Method get
+			proc
+				begin
+				data tmp, @System.Windows.Forms.ControlBindingsCollection
+				parent.GetProperty("DataBindings",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Windows.Forms.ControlBindingsCollection(0, tmp)
+				
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property DeviceDpi, int
+			Method get
+			proc
+				begin
+				data tmp, int
+				parent.GetProperty("DeviceDpi",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property IsDisposed, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("IsDisposed",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Disposing, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("Disposing",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Dock, System.Windows.Forms.DockStyle
+			Method get
+			proc
+				begin
+				data tmp, System.Windows.Forms.DockStyle
+				parent.GetProperty("Dock",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("Dock", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Enabled, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("Enabled",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("Enabled", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Focused, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("Focused",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Font, @System.Drawing.Font
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.Font
+				parent.GetProperty("Font",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.Font(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("Font", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property ForeColor, @System.Drawing.Color
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.Color
+				parent.GetProperty("ForeColor",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.Color(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("ForeColor", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Handle, @System.IntPtr
+			Method get
+			proc
+				begin
+				data tmp, @System.IntPtr
+				parent.GetProperty("Handle",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property HasChildren, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("HasChildren",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Height, int
+			Method get
+			proc
+				begin
+				data tmp, int
+				parent.GetProperty("Height",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("Height", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property IsHandleCreated, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("IsHandleCreated",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property InvokeRequired, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("InvokeRequired",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property IsAccessible, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("IsAccessible",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("IsAccessible", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property IsMirrored, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("IsMirrored",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Left, int
+			Method get
+			proc
+				begin
+				data tmp, int
+				parent.GetProperty("Left",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("Left", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Name, @string
+			Method get
+			proc
+				begin
+				mreturn (@string)parent.GetProperty("Name")
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("Name", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property ProductName, @string
+			Method get
+			proc
+				begin
+				mreturn (@string)parent.GetProperty("ProductName")
+				
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property ProductVersion, @string
+			Method get
+			proc
+				begin
+				mreturn (@string)parent.GetProperty("ProductVersion")
+				
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property RecreatingHandle, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("RecreatingHandle",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Region, @System.Drawing.Region
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.Region
+				parent.GetProperty("Region",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.Region(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("Region", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Right, int
+			Method get
+			proc
+				begin
+				data tmp, int
+				parent.GetProperty("Right",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property RightToLeft, System.Windows.Forms.RightToLeft
+			Method get
+			proc
+				begin
+				data tmp, System.Windows.Forms.RightToLeft
+				parent.GetProperty("RightToLeft",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("RightToLeft", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Site, @System.ComponentModel.ISite
+			Method get
+			proc
+				begin
+				data tmp, @System.ComponentModel.ISite
+				parent.GetProperty("Site",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.ComponentModel.ISite(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("Site", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Tag, @object
+			Method get
+			proc
+				begin
+				mreturn (@object)parent.GetProperty("Tag")
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("Tag", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Top, int
+			Method get
+			proc
+				begin
+				data tmp, int
+				parent.GetProperty("Top",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("Top", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property TopLevelControl, @System.Windows.Forms.Control
+			Method get
+			proc
+				begin
+				data tmp, @System.Windows.Forms.Control
+				parent.GetProperty("TopLevelControl",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Windows.Forms.Control(0, tmp)
+				
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property UseWaitCursor, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("UseWaitCursor",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("UseWaitCursor", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Visible, boolean
+			Method get
+			proc
+				begin
+				data tmp, boolean
+				parent.GetProperty("Visible",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("Visible", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Width, int
+			Method get
+			proc
+				begin
+				data tmp, int
+				parent.GetProperty("Width",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("Width", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property WindowTarget, @System.Windows.Forms.IWindowTarget
+			Method get
+			proc
+				begin
+				data tmp, @System.Windows.Forms.IWindowTarget
+				parent.GetProperty("WindowTarget",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Windows.Forms.IWindowTarget(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("WindowTarget", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property PreferredSize, @System.Drawing.Size
+			Method get
+			proc
+				begin
+				data tmp, @System.Drawing.Size
+				parent.GetProperty("PreferredSize",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Drawing.Size(0, tmp)
+				
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Padding, @System.Windows.Forms.Padding
+			Method get
+			proc
+				begin
+				data tmp, @System.Windows.Forms.Padding
+				parent.GetProperty("Padding",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.Windows.Forms.Padding(0, tmp)
+				
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("Padding", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property ImeMode, System.Windows.Forms.ImeMode
+			Method get
+			proc
+				begin
+				data tmp, System.Windows.Forms.ImeMode
+				parent.GetProperty("ImeMode",tmp)
+				mreturn tmp
+				end
+			
+			endmethod
+			Method set
+			proc
+				begin
+				parent.SetProperty("ImeMode", value)
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public  property Container, @System.ComponentModel.IContainer
+			Method get
+			proc
+				begin
+				data tmp, @System.ComponentModel.IContainer
+				parent.GetProperty("Container",tmp)
+				tmp.gennet_init_internal_handles()
+				mreturn tmp
+				tmp = new System.ComponentModel.IContainer(0, tmp)
+				
+				end
+			
+			endmethod
+		
+		endproperty
+		
+		public static method op_explicit, @CSharpInterop.Form1
+		convert, @object
+		
+		endparams
+		proc
+			begin
+				data nul, @CSharpInterop.Form1
+				mreturn new CSharpInterop.Form1(((dotNetObject)convert).SYNNETInternalHandle, nul)
+			end
+		
+		endmethod
+		
+		public method ValidateChildren, boolean
+		endparams
+		proc
+			begin
+				data ret, boolean
+				parent.CallV("ValidateChildren",ret)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method ValidateChildren, boolean
+		p__validationConstraints, System.Windows.Forms.ValidationConstraints
+		
+		endparams
+		proc
+			begin
+				data ret, boolean
+				parent.CallV("ValidateChildren",ret,p__validationConstraints)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method Activate, void
+		endparams
+		proc
+			begin
+				(void)parent.Call("Activate")
+				
+			end
+		
+		endmethod
+		
+		public method AddOwnedForm, void
+		p__ownedForm, @System.Windows.Forms.Form
+		
+		endparams
+		proc
+			begin
+				(void)parent.Call("AddOwnedForm",p__ownedForm)
+				
+			end
+		
+		endmethod
+		
+		public method Close, void
+		endparams
+		proc
+			begin
+				(void)parent.Call("Close")
+				
+			end
+		
+		endmethod
+		
+		public method LayoutMdi, void
+		p__value, System.Windows.Forms.MdiLayout
+		
+		endparams
+		proc
+			begin
+				(void)parent.Call("LayoutMdi",p__value)
+				
+			end
+		
+		endmethod
+		
+		public method RemoveOwnedForm, void
+		p__ownedForm, @System.Windows.Forms.Form
+		
+		endparams
+		proc
+			begin
+				(void)parent.Call("RemoveOwnedForm",p__ownedForm)
+				
+			end
+		
+		endmethod
+		
+		public method SetDesktopBounds, void
+		p__x, int
+		p__y, int
+		p__width, int
+		p__height, int
+		
+		endparams
+		proc
+			begin
+				(void)parent.Call("SetDesktopBounds",p__x,p__y,p__width,p__height)
+				
+			end
+		
+		endmethod
+		
+		public method SetDesktopLocation, void
+		p__x, int
+		p__y, int
+		
+		endparams
+		proc
+			begin
+				(void)parent.Call("SetDesktopLocation",p__x,p__y)
+				
+			end
+		
+		endmethod
+		
+		public method Show, void
+		p__owner, @System.Windows.Forms.IWin32Window
+		
+		endparams
+		proc
+			begin
+				(void)parent.Call("Show",p__owner)
+				
+			end
+		
+		endmethod
+		
+		public method ShowDialog, System.Windows.Forms.DialogResult
+		endparams
+		proc
+			begin
+				data ret, System.Windows.Forms.DialogResult
+				parent.CallV("ShowDialog",ret)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method ShowDialog, System.Windows.Forms.DialogResult
+		p__owner, @System.Windows.Forms.IWin32Window
+		
+		endparams
+		proc
+			begin
+				data ret, System.Windows.Forms.DialogResult
+				parent.CallV("ShowDialog",ret,p__owner)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public override method ToString, @string
+		endparams
+		proc
+			begin
+				data ret, @string
+				parent.CallV("ToString",ret)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method PerformAutoScale, void
+		endparams
+		proc
+			begin
+				(void)parent.Call("PerformAutoScale")
+				
+			end
+		
+		endmethod
+		
+		public method Validate, boolean
+		endparams
+		proc
+			begin
+				data ret, boolean
+				parent.CallV("Validate",ret)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method Validate, boolean
+		p__checkAutoValidate, boolean
+		
+		endparams
+		proc
+			begin
+				data ret, boolean
+				parent.CallV("Validate",ret,p__checkAutoValidate)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method ScrollControlIntoView, void
+		p__activeControl, @System.Windows.Forms.Control
+		
+		endparams
+		proc
+			begin
+				(void)parent.Call("ScrollControlIntoView",p__activeControl)
+				
+			end
+		
+		endmethod
+		
+		public method SetAutoScrollMargin, void
+		p__x, int
+		p__y, int
+		
+		endparams
+		proc
+			begin
+				(void)parent.Call("SetAutoScrollMargin",p__x,p__y)
+				
+			end
+		
+		endmethod
+		
+		public method GetPreferredSize, @System.Drawing.Size
+		p__proposedSize, @System.Drawing.Size
+		
+		endparams
+		proc
+			begin
+				data ret, @System.Drawing.Size
+				parent.CallV("GetPreferredSize",ret,p__proposedSize)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method BeginInvoke, @System.IAsyncResult
+		p__method, @System.Delegate
+		p__args, [#]@object
+		
+		endparams
+		proc
+			begin
+				data ret, @System.IAsyncResult
+				parent.CallV("BeginInvoke",ret,p__method,p__args)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method EndInvoke, @object
+		p__asyncResult, @System.IAsyncResult
+		
+		endparams
+		proc
+			begin
+				data ret, @object
+				parent.CallV("EndInvoke",ret,p__asyncResult)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method Invoke, @object
+		p__method, @System.Delegate
+		p__args, [#]@object
+		
+		endparams
+		proc
+			begin
+				data ret, @object
+				parent.CallV("Invoke",ret,p__method,p__args)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method PreProcessMessage, boolean
+		req inout p__msg, @System.Windows.Forms.Message
+		
+		endparams
+		proc
+			begin
+				data ret, boolean
+				parent.CallV("PreProcessMessage",ret,p__msg)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method ResetCursor, void
+		endparams
+		proc
+			begin
+				(void)parent.Call("ResetCursor")
+				
+			end
+		
+		endmethod
+		
+		public method ResetFont, void
+		endparams
+		proc
+			begin
+				(void)parent.Call("ResetFont")
+				
+			end
+		
+		endmethod
+		
+		public method ResetRightToLeft, void
+		endparams
+		proc
+			begin
+				(void)parent.Call("ResetRightToLeft")
+				
+			end
+		
+		endmethod
+		
+		public method Refresh, void
+		endparams
+		proc
+			begin
+				(void)parent.Call("Refresh")
+				
+			end
+		
+		endmethod
+		
+		public method ResetText, void
+		endparams
+		proc
+			begin
+				(void)parent.Call("ResetText")
+				
+			end
+		
+		endmethod
+		
+		public method ResetBindings, void
+		endparams
+		proc
+			begin
+				(void)parent.Call("ResetBindings")
+				
+			end
+		
+		endmethod
+		
+		public method BeginInvoke, @System.IAsyncResult
+		p__method, @System.Delegate
+		
+		endparams
+		proc
+			begin
+				data ret, @System.IAsyncResult
+				parent.CallV("BeginInvoke",ret,p__method)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method BringToFront, void
+		endparams
+		proc
+			begin
+				(void)parent.Call("BringToFront")
+				
+			end
+		
+		endmethod
+		
+		public method Contains, boolean
+		p__ctl, @System.Windows.Forms.Control
+		
+		endparams
+		proc
+			begin
+				data ret, boolean
+				parent.CallV("Contains",ret,p__ctl)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method CreateGraphics, @System.Drawing.Graphics
+		endparams
+		proc
+			begin
+				data ret, @System.Drawing.Graphics
+				parent.CallV("CreateGraphics",ret)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method CreateControl, void
+		endparams
+		proc
+			begin
+				(void)parent.Call("CreateControl")
+				
+			end
+		
+		endmethod
+		
+		public method DoDragDrop, System.Windows.Forms.DragDropEffects
+		p__data, @object
+		p__allowedEffects, System.Windows.Forms.DragDropEffects
+		
+		endparams
+		proc
+			begin
+				data ret, System.Windows.Forms.DragDropEffects
+				parent.CallV("DoDragDrop",ret,p__data,p__allowedEffects)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method DrawToBitmap, void
+		p__bitmap, @System.Drawing.Bitmap
+		p__targetBounds, @System.Drawing.Rectangle
+		
+		endparams
+		proc
+			begin
+				(void)parent.Call("DrawToBitmap",p__bitmap,p__targetBounds)
+				
+			end
+		
+		endmethod
+		
+		public method FindForm, @System.Windows.Forms.Form
+		endparams
+		proc
+			begin
+				data ret, @System.Windows.Forms.Form
+				parent.CallV("FindForm",ret)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method Focus, boolean
+		endparams
+		proc
+			begin
+				data ret, boolean
+				parent.CallV("Focus",ret)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method GetChildAtPoint, @System.Windows.Forms.Control
+		p__pt, @System.Drawing.Point
+		p__skipValue, System.Windows.Forms.GetChildAtPointSkip
+		
+		endparams
+		proc
+			begin
+				data ret, @System.Windows.Forms.Control
+				parent.CallV("GetChildAtPoint",ret,p__pt,p__skipValue)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method GetChildAtPoint, @System.Windows.Forms.Control
+		p__pt, @System.Drawing.Point
+		
+		endparams
+		proc
+			begin
+				data ret, @System.Windows.Forms.Control
+				parent.CallV("GetChildAtPoint",ret,p__pt)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method GetContainerControl, @System.Windows.Forms.IContainerControl
+		endparams
+		proc
+			begin
+				data ret, @System.Windows.Forms.IContainerControl
+				parent.CallV("GetContainerControl",ret)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method GetNextControl, @System.Windows.Forms.Control
+		p__ctl, @System.Windows.Forms.Control
+		p__forward, boolean
+		
+		endparams
+		proc
+			begin
+				data ret, @System.Windows.Forms.Control
+				parent.CallV("GetNextControl",ret,p__ctl,p__forward)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method Hide, void
+		endparams
+		proc
+			begin
+				(void)parent.Call("Hide")
+				
+			end
+		
+		endmethod
+		
+		public method Invalidate, void
+		p__region, @System.Drawing.Region
+		
+		endparams
+		proc
+			begin
+				(void)parent.Call("Invalidate",p__region)
+				
+			end
+		
+		endmethod
+		
+		public method Invalidate, void
+		p__region, @System.Drawing.Region
+		p__invalidateChildren, boolean
+		
+		endparams
+		proc
+			begin
+				(void)parent.Call("Invalidate",p__region,p__invalidateChildren)
+				
+			end
+		
+		endmethod
+		
+		public method Invalidate, void
+		endparams
+		proc
+			begin
+				(void)parent.Call("Invalidate")
+				
+			end
+		
+		endmethod
+		
+		public method Invalidate, void
+		p__invalidateChildren, boolean
+		
+		endparams
+		proc
+			begin
+				(void)parent.Call("Invalidate",p__invalidateChildren)
+				
+			end
+		
+		endmethod
+		
+		public method Invalidate, void
+		p__rc, @System.Drawing.Rectangle
+		
+		endparams
+		proc
+			begin
+				(void)parent.Call("Invalidate",p__rc)
+				
+			end
+		
+		endmethod
+		
+		public method Invalidate, void
+		p__rc, @System.Drawing.Rectangle
+		p__invalidateChildren, boolean
+		
+		endparams
+		proc
+			begin
+				(void)parent.Call("Invalidate",p__rc,p__invalidateChildren)
+				
+			end
+		
+		endmethod
+		
+		public method Invoke, @object
+		p__method, @System.Delegate
+		
+		endparams
+		proc
+			begin
+				data ret, @object
+				parent.CallV("Invoke",ret,p__method)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method LogicalToDeviceUnits, int
+		p__value, int
+		
+		endparams
+		proc
+			begin
+				data ret, int
+				parent.CallV("LogicalToDeviceUnits",ret,p__value)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method LogicalToDeviceUnits, @System.Drawing.Size
+		p__value, @System.Drawing.Size
+		
+		endparams
+		proc
+			begin
+				data ret, @System.Drawing.Size
+				parent.CallV("LogicalToDeviceUnits",ret,p__value)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method ScaleBitmapLogicalToDevice, void
+		req inout p__logicalBitmap, @System.Drawing.Bitmap
+		
+		endparams
+		proc
+			begin
+				(void)parent.Call("ScaleBitmapLogicalToDevice",p__logicalBitmap)
+				
+			end
+		
+		endmethod
+		
+		public method PerformLayout, void
+		endparams
+		proc
+			begin
+				(void)parent.Call("PerformLayout")
+				
+			end
+		
+		endmethod
+		
+		public method PerformLayout, void
+		p__affectedControl, @System.Windows.Forms.Control
+		p__affectedProperty, @string
+		
+		endparams
+		proc
+			begin
+				(void)parent.Call("PerformLayout",p__affectedControl,p__affectedProperty)
+				
+			end
+		
+		endmethod
+		
+		public method PointToClient, @System.Drawing.Point
+		p__p, @System.Drawing.Point
+		
+		endparams
+		proc
+			begin
+				data ret, @System.Drawing.Point
+				parent.CallV("PointToClient",ret,p__p)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method PointToScreen, @System.Drawing.Point
+		p__p, @System.Drawing.Point
+		
+		endparams
+		proc
+			begin
+				data ret, @System.Drawing.Point
+				parent.CallV("PointToScreen",ret,p__p)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method PreProcessControlMessage, System.Windows.Forms.PreProcessControlState
+		req inout p__msg, @System.Windows.Forms.Message
+		
+		endparams
+		proc
+			begin
+				data ret, System.Windows.Forms.PreProcessControlState
+				parent.CallV("PreProcessControlMessage",ret,p__msg)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method ResetBackColor, void
+		endparams
+		proc
+			begin
+				(void)parent.Call("ResetBackColor")
+				
+			end
+		
+		endmethod
+		
+		public method ResetForeColor, void
+		endparams
+		proc
+			begin
+				(void)parent.Call("ResetForeColor")
+				
+			end
+		
+		endmethod
+		
+		public method RectangleToClient, @System.Drawing.Rectangle
+		p__r, @System.Drawing.Rectangle
+		
+		endparams
+		proc
+			begin
+				data ret, @System.Drawing.Rectangle
+				parent.CallV("RectangleToClient",ret,p__r)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method RectangleToScreen, @System.Drawing.Rectangle
+		p__r, @System.Drawing.Rectangle
+		
+		endparams
+		proc
+			begin
+				data ret, @System.Drawing.Rectangle
+				parent.CallV("RectangleToScreen",ret,p__r)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method ResumeLayout, void
+		endparams
+		proc
+			begin
+				(void)parent.Call("ResumeLayout")
+				
+			end
+		
+		endmethod
+		
+		public method ResumeLayout, void
+		p__performLayout, boolean
+		
+		endparams
+		proc
+			begin
+				(void)parent.Call("ResumeLayout",p__performLayout)
+				
+			end
+		
+		endmethod
+		
+		public method Scale, void
+		p__ratio, id
+		
+		endparams
+		proc
+			begin
+				(void)parent.Call("Scale",p__ratio)
+				
+			end
+		
+		endmethod
+		
+		public method Scale, void
+		p__dx, id
+		p__dy, id
+		
+		endparams
+		proc
+			begin
+				(void)parent.Call("Scale",p__dx,p__dy)
+				
+			end
+		
+		endmethod
+		
+		public method Scale, void
+		p__factor, @System.Drawing.SizeF
+		
+		endparams
+		proc
+			begin
+				(void)parent.Call("Scale",p__factor)
+				
+			end
+		
+		endmethod
+		
+		public method Select, void
+		endparams
+		proc
+			begin
+				(void)parent.Call("Select")
+				
+			end
+		
+		endmethod
+		
+		public method SelectNextControl, boolean
+		p__ctl, @System.Windows.Forms.Control
+		p__forward, boolean
+		p__tabStopOnly, boolean
+		p__nested, boolean
+		p__wrap, boolean
+		
+		endparams
+		proc
+			begin
+				data ret, boolean
+				parent.CallV("SelectNextControl",ret,p__ctl,p__forward,p__tabStopOnly,p__nested,p__wrap)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method SendToBack, void
+		endparams
+		proc
+			begin
+				(void)parent.Call("SendToBack")
+				
+			end
+		
+		endmethod
+		
+		public method SetBounds, void
+		p__x, int
+		p__y, int
+		p__width, int
+		p__height, int
+		
+		endparams
+		proc
+			begin
+				(void)parent.Call("SetBounds",p__x,p__y,p__width,p__height)
+				
+			end
+		
+		endmethod
+		
+		public method SetBounds, void
+		p__x, int
+		p__y, int
+		p__width, int
+		p__height, int
+		p__specified, System.Windows.Forms.BoundsSpecified
+		
+		endparams
+		proc
+			begin
+				(void)parent.Call("SetBounds",p__x,p__y,p__width,p__height,p__specified)
+				
+			end
+		
+		endmethod
+		
+		public method Show, void
+		endparams
+		proc
+			begin
+				(void)parent.Call("Show")
+				
+			end
+		
+		endmethod
+		
+		public method SuspendLayout, void
+		endparams
+		proc
+			begin
+				(void)parent.Call("SuspendLayout")
+				
+			end
+		
+		endmethod
+		
+		public method Update, void
+		endparams
+		proc
+			begin
+				(void)parent.Call("Update")
+				
+			end
+		
+		endmethod
+		
+		public method ResetImeMode, void
+		endparams
+		proc
+			begin
+				(void)parent.Call("ResetImeMode")
+				
+			end
+		
+		endmethod
+		
+		public method Dispose, void
+		endparams
+		proc
+			begin
+				(void)parent.Call("Dispose")
+				
+			end
+		
+		endmethod
+		
+		public method GetLifetimeService, @object
+		endparams
+		proc
+			begin
+				data ret, @object
+				parent.CallV("GetLifetimeService",ret)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method InitializeLifetimeService, @object
+		endparams
+		proc
+			begin
+				data ret, @object
+				parent.CallV("InitializeLifetimeService",ret)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method CreateObjRef, @System.Runtime.Remoting.ObjRef
+		p__requestedType, @System.Type
+		
+		endparams
+		proc
+			begin
+				data ret, @System.Runtime.Remoting.ObjRef
+				parent.CallV("CreateObjRef",ret,p__requestedType)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method GetType, @System.Type
+		endparams
+		proc
+			begin
+				data ret, @System.Type
+				parent.CallV("GetType",ret)
+				mreturn ret
+			end
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				this.AutoSizeChanged = new eAutoSizeChanged(SYNNETInternalHandle)
+				this.AutoValidateChanged = new eAutoValidateChanged(SYNNETInternalHandle)
+				this.HelpButtonClicked = new eHelpButtonClicked(SYNNETInternalHandle)
+				this.MaximizedBoundsChanged = new eMaximizedBoundsChanged(SYNNETInternalHandle)
+				this.MaximumSizeChanged = new eMaximumSizeChanged(SYNNETInternalHandle)
+				this.MarginChanged = new eMarginChanged(SYNNETInternalHandle)
+				this.MinimumSizeChanged = new eMinimumSizeChanged(SYNNETInternalHandle)
+				this.TabIndexChanged = new eTabIndexChanged(SYNNETInternalHandle)
+				this.TabStopChanged = new eTabStopChanged(SYNNETInternalHandle)
+				this.Activated = new eActivated(SYNNETInternalHandle)
+				this.Closing = new eClosing(SYNNETInternalHandle)
+				this.Closed = new eClosed(SYNNETInternalHandle)
+				this.Deactivate = new eDeactivate(SYNNETInternalHandle)
+				this.FormClosing = new eFormClosing(SYNNETInternalHandle)
+				this.FormClosed = new eFormClosed(SYNNETInternalHandle)
+				this.Load = new eLoad(SYNNETInternalHandle)
+				this.MdiChildActivate = new eMdiChildActivate(SYNNETInternalHandle)
+				this.MenuComplete = new eMenuComplete(SYNNETInternalHandle)
+				this.MenuStart = new eMenuStart(SYNNETInternalHandle)
+				this.RightToLeftLayoutChanged = new eRightToLeftLayoutChanged(SYNNETInternalHandle)
+				this.Shown = new eShown(SYNNETInternalHandle)
+				this.DpiChanged = new eDpiChanged(SYNNETInternalHandle)
+				this.ResizeBegin = new eResizeBegin(SYNNETInternalHandle)
+				this.ResizeEnd = new eResizeEnd(SYNNETInternalHandle)
+				this.Scroll = new eScroll(SYNNETInternalHandle)
+				this.BackColorChanged = new eBackColorChanged(SYNNETInternalHandle)
+				this.BackgroundImageChanged = new eBackgroundImageChanged(SYNNETInternalHandle)
+				this.BackgroundImageLayoutChanged = new eBackgroundImageLayoutChanged(SYNNETInternalHandle)
+				this.BindingContextChanged = new eBindingContextChanged(SYNNETInternalHandle)
+				this.CausesValidationChanged = new eCausesValidationChanged(SYNNETInternalHandle)
+				this.ClientSizeChanged = new eClientSizeChanged(SYNNETInternalHandle)
+				this.ContextMenuChanged = new eContextMenuChanged(SYNNETInternalHandle)
+				this.ContextMenuStripChanged = new eContextMenuStripChanged(SYNNETInternalHandle)
+				this.CursorChanged = new eCursorChanged(SYNNETInternalHandle)
+				this.DockChanged = new eDockChanged(SYNNETInternalHandle)
+				this.EnabledChanged = new eEnabledChanged(SYNNETInternalHandle)
+				this.FontChanged = new eFontChanged(SYNNETInternalHandle)
+				this.ForeColorChanged = new eForeColorChanged(SYNNETInternalHandle)
+				this.LocationChanged = new eLocationChanged(SYNNETInternalHandle)
+				this.RegionChanged = new eRegionChanged(SYNNETInternalHandle)
+				this.RightToLeftChanged = new eRightToLeftChanged(SYNNETInternalHandle)
+				this.SizeChanged = new eSizeChanged(SYNNETInternalHandle)
+				this.TextChanged = new eTextChanged(SYNNETInternalHandle)
+				this.VisibleChanged = new eVisibleChanged(SYNNETInternalHandle)
+				this.Click = new eClick(SYNNETInternalHandle)
+				this.ControlAdded = new eControlAdded(SYNNETInternalHandle)
+				this.ControlRemoved = new eControlRemoved(SYNNETInternalHandle)
+				this.DragDrop = new eDragDrop(SYNNETInternalHandle)
+				this.DragEnter = new eDragEnter(SYNNETInternalHandle)
+				this.DragOver = new eDragOver(SYNNETInternalHandle)
+				this.DragLeave = new eDragLeave(SYNNETInternalHandle)
+				this.GiveFeedback = new eGiveFeedback(SYNNETInternalHandle)
+				this.HandleCreated = new eHandleCreated(SYNNETInternalHandle)
+				this.HandleDestroyed = new eHandleDestroyed(SYNNETInternalHandle)
+				this.HelpRequested = new eHelpRequested(SYNNETInternalHandle)
+				this.Invalidated = new eInvalidated(SYNNETInternalHandle)
+				this.PaddingChanged = new ePaddingChanged(SYNNETInternalHandle)
+				this.Paint = new ePaint(SYNNETInternalHandle)
+				this.QueryContinueDrag = new eQueryContinueDrag(SYNNETInternalHandle)
+				this.DoubleClick = new eDoubleClick(SYNNETInternalHandle)
+				this.Enter = new eEnter(SYNNETInternalHandle)
+				this.GotFocus = new eGotFocus(SYNNETInternalHandle)
+				this.KeyDown = new eKeyDown(SYNNETInternalHandle)
+				this.KeyPress = new eKeyPress(SYNNETInternalHandle)
+				this.KeyUp = new eKeyUp(SYNNETInternalHandle)
+				this.Layout = new eLayout(SYNNETInternalHandle)
+				this.Leave = new eLeave(SYNNETInternalHandle)
+				this.LostFocus = new eLostFocus(SYNNETInternalHandle)
+				this.MouseClick = new eMouseClick(SYNNETInternalHandle)
+				this.MouseDoubleClick = new eMouseDoubleClick(SYNNETInternalHandle)
+				this.MouseCaptureChanged = new eMouseCaptureChanged(SYNNETInternalHandle)
+				this.MouseDown = new eMouseDown(SYNNETInternalHandle)
+				this.MouseEnter = new eMouseEnter(SYNNETInternalHandle)
+				this.MouseLeave = new eMouseLeave(SYNNETInternalHandle)
+				this.DpiChangedBeforeParent = new eDpiChangedBeforeParent(SYNNETInternalHandle)
+				this.DpiChangedAfterParent = new eDpiChangedAfterParent(SYNNETInternalHandle)
+				this.MouseHover = new eMouseHover(SYNNETInternalHandle)
+				this.MouseMove = new eMouseMove(SYNNETInternalHandle)
+				this.MouseUp = new eMouseUp(SYNNETInternalHandle)
+				this.MouseWheel = new eMouseWheel(SYNNETInternalHandle)
+				this.Move = new eMove(SYNNETInternalHandle)
+				this.PreviewKeyDown = new ePreviewKeyDown(SYNNETInternalHandle)
+				this.Resize = new eResize(SYNNETInternalHandle)
+				this.ChangeUICues = new eChangeUICues(SYNNETInternalHandle)
+				this.StyleChanged = new eStyleChanged(SYNNETInternalHandle)
+				this.SystemColorsChanged = new eSystemColorsChanged(SYNNETInternalHandle)
+				this.Validating = new eValidating(SYNNETInternalHandle)
+				this.Validated = new eValidated(SYNNETInternalHandle)
+				this.ParentChanged = new eParentChanged(SYNNETInternalHandle)
+				this.ImeModeChanged = new eImeModeChanged(SYNNETInternalHandle)
+				this.Disposed = new eDisposed(SYNNETInternalHandle)
+				
+			end
+		
+		endmethod
+		
+		public class eAutoSizeChanged Extends DotNetEvent
+			
+			public  method eAutoSizeChanged
+			id, i4
+			
+			endparams 
+					parent("AutoSizeChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eAutoValidateChanged Extends DotNetEvent
+			
+			public  method eAutoValidateChanged
+			id, i4
+			
+			endparams 
+					parent("AutoValidateChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eHelpButtonClicked Extends DotNetEvent
+			
+			public  method eHelpButtonClicked
+			id, i4
+			
+			endparams 
+					parent("HelpButtonClicked",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.ComponentModel.CancelEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eMaximizedBoundsChanged Extends DotNetEvent
+			
+			public  method eMaximizedBoundsChanged
+			id, i4
+			
+			endparams 
+					parent("MaximizedBoundsChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eMaximumSizeChanged Extends DotNetEvent
+			
+			public  method eMaximumSizeChanged
+			id, i4
+			
+			endparams 
+					parent("MaximumSizeChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eMarginChanged Extends DotNetEvent
+			
+			public  method eMarginChanged
+			id, i4
+			
+			endparams 
+					parent("MarginChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eMinimumSizeChanged Extends DotNetEvent
+			
+			public  method eMinimumSizeChanged
+			id, i4
+			
+			endparams 
+					parent("MinimumSizeChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eTabIndexChanged Extends DotNetEvent
+			
+			public  method eTabIndexChanged
+			id, i4
+			
+			endparams 
+					parent("TabIndexChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eTabStopChanged Extends DotNetEvent
+			
+			public  method eTabStopChanged
+			id, i4
+			
+			endparams 
+					parent("TabStopChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eActivated Extends DotNetEvent
+			
+			public  method eActivated
+			id, i4
+			
+			endparams 
+					parent("Activated",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eClosing Extends DotNetEvent
+			
+			public  method eClosing
+			id, i4
+			
+			endparams 
+					parent("Closing",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.ComponentModel.CancelEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eClosed Extends DotNetEvent
+			
+			public  method eClosed
+			id, i4
+			
+			endparams 
+					parent("Closed",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eDeactivate Extends DotNetEvent
+			
+			public  method eDeactivate
+			id, i4
+			
+			endparams 
+					parent("Deactivate",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eFormClosing Extends DotNetEvent
+			
+			public  method eFormClosing
+			id, i4
+			
+			endparams 
+					parent("FormClosing",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.FormClosingEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eFormClosed Extends DotNetEvent
+			
+			public  method eFormClosed
+			id, i4
+			
+			endparams 
+					parent("FormClosed",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.FormClosedEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eLoad Extends DotNetEvent
+			
+			public  method eLoad
+			id, i4
+			
+			endparams 
+					parent("Load",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eMdiChildActivate Extends DotNetEvent
+			
+			public  method eMdiChildActivate
+			id, i4
+			
+			endparams 
+					parent("MdiChildActivate",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eMenuComplete Extends DotNetEvent
+			
+			public  method eMenuComplete
+			id, i4
+			
+			endparams 
+					parent("MenuComplete",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eMenuStart Extends DotNetEvent
+			
+			public  method eMenuStart
+			id, i4
+			
+			endparams 
+					parent("MenuStart",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eRightToLeftLayoutChanged Extends DotNetEvent
+			
+			public  method eRightToLeftLayoutChanged
+			id, i4
+			
+			endparams 
+					parent("RightToLeftLayoutChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eShown Extends DotNetEvent
+			
+			public  method eShown
+			id, i4
+			
+			endparams 
+					parent("Shown",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eDpiChanged Extends DotNetEvent
+			
+			public  method eDpiChanged
+			id, i4
+			
+			endparams 
+					parent("DpiChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.DpiChangedEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eResizeBegin Extends DotNetEvent
+			
+			public  method eResizeBegin
+			id, i4
+			
+			endparams 
+					parent("ResizeBegin",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eResizeEnd Extends DotNetEvent
+			
+			public  method eResizeEnd
+			id, i4
+			
+			endparams 
+					parent("ResizeEnd",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eScroll Extends DotNetEvent
+			
+			public  method eScroll
+			id, i4
+			
+			endparams 
+					parent("Scroll",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.ScrollEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eBackColorChanged Extends DotNetEvent
+			
+			public  method eBackColorChanged
+			id, i4
+			
+			endparams 
+					parent("BackColorChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eBackgroundImageChanged Extends DotNetEvent
+			
+			public  method eBackgroundImageChanged
+			id, i4
+			
+			endparams 
+					parent("BackgroundImageChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eBackgroundImageLayoutChanged Extends DotNetEvent
+			
+			public  method eBackgroundImageLayoutChanged
+			id, i4
+			
+			endparams 
+					parent("BackgroundImageLayoutChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eBindingContextChanged Extends DotNetEvent
+			
+			public  method eBindingContextChanged
+			id, i4
+			
+			endparams 
+					parent("BindingContextChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eCausesValidationChanged Extends DotNetEvent
+			
+			public  method eCausesValidationChanged
+			id, i4
+			
+			endparams 
+					parent("CausesValidationChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eClientSizeChanged Extends DotNetEvent
+			
+			public  method eClientSizeChanged
+			id, i4
+			
+			endparams 
+					parent("ClientSizeChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eContextMenuChanged Extends DotNetEvent
+			
+			public  method eContextMenuChanged
+			id, i4
+			
+			endparams 
+					parent("ContextMenuChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eContextMenuStripChanged Extends DotNetEvent
+			
+			public  method eContextMenuStripChanged
+			id, i4
+			
+			endparams 
+					parent("ContextMenuStripChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eCursorChanged Extends DotNetEvent
+			
+			public  method eCursorChanged
+			id, i4
+			
+			endparams 
+					parent("CursorChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eDockChanged Extends DotNetEvent
+			
+			public  method eDockChanged
+			id, i4
+			
+			endparams 
+					parent("DockChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eEnabledChanged Extends DotNetEvent
+			
+			public  method eEnabledChanged
+			id, i4
+			
+			endparams 
+					parent("EnabledChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eFontChanged Extends DotNetEvent
+			
+			public  method eFontChanged
+			id, i4
+			
+			endparams 
+					parent("FontChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eForeColorChanged Extends DotNetEvent
+			
+			public  method eForeColorChanged
+			id, i4
+			
+			endparams 
+					parent("ForeColorChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eLocationChanged Extends DotNetEvent
+			
+			public  method eLocationChanged
+			id, i4
+			
+			endparams 
+					parent("LocationChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eRegionChanged Extends DotNetEvent
+			
+			public  method eRegionChanged
+			id, i4
+			
+			endparams 
+					parent("RegionChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eRightToLeftChanged Extends DotNetEvent
+			
+			public  method eRightToLeftChanged
+			id, i4
+			
+			endparams 
+					parent("RightToLeftChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eSizeChanged Extends DotNetEvent
+			
+			public  method eSizeChanged
+			id, i4
+			
+			endparams 
+					parent("SizeChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eTextChanged Extends DotNetEvent
+			
+			public  method eTextChanged
+			id, i4
+			
+			endparams 
+					parent("TextChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eVisibleChanged Extends DotNetEvent
+			
+			public  method eVisibleChanged
+			id, i4
+			
+			endparams 
+					parent("VisibleChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eClick Extends DotNetEvent
+			
+			public  method eClick
+			id, i4
+			
+			endparams 
+					parent("Click",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eControlAdded Extends DotNetEvent
+			
+			public  method eControlAdded
+			id, i4
+			
+			endparams 
+					parent("ControlAdded",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.ControlEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eControlRemoved Extends DotNetEvent
+			
+			public  method eControlRemoved
+			id, i4
+			
+			endparams 
+					parent("ControlRemoved",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.ControlEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eDragDrop Extends DotNetEvent
+			
+			public  method eDragDrop
+			id, i4
+			
+			endparams 
+					parent("DragDrop",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.DragEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eDragEnter Extends DotNetEvent
+			
+			public  method eDragEnter
+			id, i4
+			
+			endparams 
+					parent("DragEnter",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.DragEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eDragOver Extends DotNetEvent
+			
+			public  method eDragOver
+			id, i4
+			
+			endparams 
+					parent("DragOver",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.DragEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eDragLeave Extends DotNetEvent
+			
+			public  method eDragLeave
+			id, i4
+			
+			endparams 
+					parent("DragLeave",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eGiveFeedback Extends DotNetEvent
+			
+			public  method eGiveFeedback
+			id, i4
+			
+			endparams 
+					parent("GiveFeedback",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.GiveFeedbackEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eHandleCreated Extends DotNetEvent
+			
+			public  method eHandleCreated
+			id, i4
+			
+			endparams 
+					parent("HandleCreated",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eHandleDestroyed Extends DotNetEvent
+			
+			public  method eHandleDestroyed
+			id, i4
+			
+			endparams 
+					parent("HandleDestroyed",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eHelpRequested Extends DotNetEvent
+			
+			public  method eHelpRequested
+			id, i4
+			
+			endparams 
+					parent("HelpRequested",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.HelpEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eInvalidated Extends DotNetEvent
+			
+			public  method eInvalidated
+			id, i4
+			
+			endparams 
+					parent("Invalidated",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.InvalidateEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class ePaddingChanged Extends DotNetEvent
+			
+			public  method ePaddingChanged
+			id, i4
+			
+			endparams 
+					parent("PaddingChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class ePaint Extends DotNetEvent
+			
+			public  method ePaint
+			id, i4
+			
+			endparams 
+					parent("Paint",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.PaintEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eQueryContinueDrag Extends DotNetEvent
+			
+			public  method eQueryContinueDrag
+			id, i4
+			
+			endparams 
+					parent("QueryContinueDrag",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.QueryContinueDragEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eDoubleClick Extends DotNetEvent
+			
+			public  method eDoubleClick
+			id, i4
+			
+			endparams 
+					parent("DoubleClick",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eEnter Extends DotNetEvent
+			
+			public  method eEnter
+			id, i4
+			
+			endparams 
+					parent("Enter",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eGotFocus Extends DotNetEvent
+			
+			public  method eGotFocus
+			id, i4
+			
+			endparams 
+					parent("GotFocus",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eKeyDown Extends DotNetEvent
+			
+			public  method eKeyDown
+			id, i4
+			
+			endparams 
+					parent("KeyDown",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.KeyEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eKeyPress Extends DotNetEvent
+			
+			public  method eKeyPress
+			id, i4
+			
+			endparams 
+					parent("KeyPress",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.KeyPressEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eKeyUp Extends DotNetEvent
+			
+			public  method eKeyUp
+			id, i4
+			
+			endparams 
+					parent("KeyUp",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.KeyEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eLayout Extends DotNetEvent
+			
+			public  method eLayout
+			id, i4
+			
+			endparams 
+					parent("Layout",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.LayoutEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eLeave Extends DotNetEvent
+			
+			public  method eLeave
+			id, i4
+			
+			endparams 
+					parent("Leave",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eLostFocus Extends DotNetEvent
+			
+			public  method eLostFocus
+			id, i4
+			
+			endparams 
+					parent("LostFocus",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eMouseClick Extends DotNetEvent
+			
+			public  method eMouseClick
+			id, i4
+			
+			endparams 
+					parent("MouseClick",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.MouseEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eMouseDoubleClick Extends DotNetEvent
+			
+			public  method eMouseDoubleClick
+			id, i4
+			
+			endparams 
+					parent("MouseDoubleClick",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.MouseEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eMouseCaptureChanged Extends DotNetEvent
+			
+			public  method eMouseCaptureChanged
+			id, i4
+			
+			endparams 
+					parent("MouseCaptureChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eMouseDown Extends DotNetEvent
+			
+			public  method eMouseDown
+			id, i4
+			
+			endparams 
+					parent("MouseDown",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.MouseEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eMouseEnter Extends DotNetEvent
+			
+			public  method eMouseEnter
+			id, i4
+			
+			endparams 
+					parent("MouseEnter",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eMouseLeave Extends DotNetEvent
+			
+			public  method eMouseLeave
+			id, i4
+			
+			endparams 
+					parent("MouseLeave",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eDpiChangedBeforeParent Extends DotNetEvent
+			
+			public  method eDpiChangedBeforeParent
+			id, i4
+			
+			endparams 
+					parent("DpiChangedBeforeParent",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eDpiChangedAfterParent Extends DotNetEvent
+			
+			public  method eDpiChangedAfterParent
+			id, i4
+			
+			endparams 
+					parent("DpiChangedAfterParent",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eMouseHover Extends DotNetEvent
+			
+			public  method eMouseHover
+			id, i4
+			
+			endparams 
+					parent("MouseHover",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eMouseMove Extends DotNetEvent
+			
+			public  method eMouseMove
+			id, i4
+			
+			endparams 
+					parent("MouseMove",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.MouseEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eMouseUp Extends DotNetEvent
+			
+			public  method eMouseUp
+			id, i4
+			
+			endparams 
+					parent("MouseUp",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.MouseEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eMouseWheel Extends DotNetEvent
+			
+			public  method eMouseWheel
+			id, i4
+			
+			endparams 
+					parent("MouseWheel",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.MouseEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eMove Extends DotNetEvent
+			
+			public  method eMove
+			id, i4
+			
+			endparams 
+					parent("Move",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class ePreviewKeyDown Extends DotNetEvent
+			
+			public  method ePreviewKeyDown
+			id, i4
+			
+			endparams 
+					parent("PreviewKeyDown",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.PreviewKeyDownEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eResize Extends DotNetEvent
+			
+			public  method eResize
+			id, i4
+			
+			endparams 
+					parent("Resize",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eChangeUICues Extends DotNetEvent
+			
+			public  method eChangeUICues
+			id, i4
+			
+			endparams 
+					parent("ChangeUICues",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.Windows.Forms.UICuesEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eStyleChanged Extends DotNetEvent
+			
+			public  method eStyleChanged
+			id, i4
+			
+			endparams 
+					parent("StyleChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eSystemColorsChanged Extends DotNetEvent
+			
+			public  method eSystemColorsChanged
+			id, i4
+			
+			endparams 
+					parent("SystemColorsChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eValidating Extends DotNetEvent
+			
+			public  method eValidating
+			id, i4
+			
+			endparams 
+					parent("Validating",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.ComponentModel.CancelEventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eValidated Extends DotNetEvent
+			
+			public  method eValidated
+			id, i4
+			
+			endparams 
+					parent("Validated",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eParentChanged Extends DotNetEvent
+			
+			public  method eParentChanged
+			id, i4
+			
+			endparams 
+					parent("ParentChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eImeModeChanged Extends DotNetEvent
+			
+			public  method eImeModeChanged
+			id, i4
+			
+			endparams 
+					parent("ImeModeChanged",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+		
+		public class eDisposed Extends DotNetEvent
+			
+			public  method eDisposed
+			id, i4
+			
+			endparams 
+					parent("Disposed",id)
+			proc
+			
+			endmethod
+			
+			public method AddHandler, void
+			delegate, @System.EventHandler
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(delegate)
+				end
+			
+			endmethod
+			
+			public method AddHandler, void
+			instance, @*
+			method, a
+			
+			endparams
+			proc
+				begin
+					parent.AddHandlerInternal(instance, method)
+				end
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+	
+	endclass
+
+endnamespace
+namespace CSharpInterop 
+	
+	
 	public class UserControl1 Extends DotNetObject
 		
 		public PreviewMouseDoubleClick, @ePreviewMouseDoubleClick
@@ -6403,6 +14172,2213 @@ namespace System
 	endclass
 
 endnamespace
+namespace System_Windows_Forms__ 
+	
+	
+	public class af_Forms__
+		
+			private static InternalDetails__Data, @DotNetAssembly
+				public static property Property__, @DotNetAssembly
+				method get
+				proc
+				if(InternalDetails__Data == ^NULL)
+					InternalDetails__Data = new DotNetAssembly("System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089")
+				mreturn InternalDetails__Data
+				endmethod
+				endproperty
+				
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public enum ValidationConstraints
+		
+		None, 0
+		Selectable, 1
+		Enabled, 2
+		Visible, 4
+		TabStop, 8
+		ImmediateChildren, 16
+	endenum
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class Form Extends DotNetObject
+		
+		public  method Form
+		id, int
+		internal, @Form
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public enum MdiLayout
+		
+		Cascade, 0
+		TileHorizontal, 1
+		TileVertical, 2
+		ArrangeIcons, 3
+	endenum
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class IWin32Window Extends DotNetObject
+		
+		public  method IWin32Window
+		id, int
+		internal, @IWin32Window
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public enum DialogResult
+		
+		None, 0
+		OK, 1
+		Cancel, 2
+		Abort, 3
+		Retry, 4
+		Ignore, 5
+		Yes, 6
+		No, 7
+	endenum
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class Control Extends DotNetObject
+		
+		public  method Control
+		id, int
+		internal, @Control
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+		
+		public class ControlCollection Extends DotNetObject
+			
+			public  method ControlCollection
+			id, int
+			internal, @ControlCollection
+			
+			endparams 
+					parent(id, 0)
+			proc
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+	
+	endclass
+
+endnamespace
+namespace System_Drawing__ 
+	
+	
+	public class af_Drawing__
+		
+			private static InternalDetails__Data, @DotNetAssembly
+				public static property Property__, @DotNetAssembly
+				method get
+				proc
+				if(InternalDetails__Data == ^NULL)
+					InternalDetails__Data = new DotNetAssembly("System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")
+				mreturn InternalDetails__Data
+				endmethod
+				endproperty
+				
+	
+	endclass
+
+endnamespace
+namespace System.Drawing 
+	
+	
+	public class Size Extends DotNetObject
+		
+		public  method Size
+		id, int
+		internal, @Size
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System 
+	
+	
+	public class IAsyncResult Extends DotNetObject
+		
+		public  method IAsyncResult
+		id, int
+		internal, @IAsyncResult
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System 
+	
+	
+	public class Delegate Extends DotNetObject
+		
+		public  method Delegate
+		id, int
+		internal, @Delegate
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class Message Extends DotNetObject
+		
+		public  method Message
+		id, int
+		internal, @Message
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Drawing 
+	
+	
+	public class Graphics Extends DotNetObject
+		
+		public  method Graphics
+		id, int
+		internal, @Graphics
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public enum DragDropEffects
+		
+		None, 0
+		Copy, 1
+		Move, 2
+		Link, 4
+		Scroll, -2147483648
+		All, -2147483645
+	endenum
+
+endnamespace
+namespace System.Drawing 
+	
+	
+	public class Bitmap Extends DotNetObject
+		
+		public  method Bitmap
+		id, int
+		internal, @Bitmap
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Drawing 
+	
+	
+	public class Rectangle Extends DotNetObject
+		
+		public  method Rectangle
+		id, int
+		internal, @Rectangle
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Drawing 
+	
+	
+	public class Point Extends DotNetObject
+		
+		public  method Point
+		id, int
+		internal, @Point
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public enum GetChildAtPointSkip
+		
+		None, 0
+		Invisible, 1
+		Disabled, 2
+		Transparent, 4
+	endenum
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class IContainerControl Extends DotNetObject
+		
+		public  method IContainerControl
+		id, int
+		internal, @IContainerControl
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Drawing 
+	
+	
+	public class Region Extends DotNetObject
+		
+		public  method Region
+		id, int
+		internal, @Region
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public enum PreProcessControlState
+		
+		MessageProcessed, 0
+		MessageNeeded, 1
+		MessageNotNeeded, 2
+	endenum
+
+endnamespace
+namespace System.Drawing 
+	
+	
+	public class SizeF Extends DotNetObject
+		
+		public  method SizeF
+		id, int
+		internal, @SizeF
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public enum BoundsSpecified
+		
+		X, 1
+		Y, 2
+		Width, 4
+		Height, 8
+		Location, 3
+		Size, 12
+		All, 15
+		None, 0
+	endenum
+
+endnamespace
+namespace System.Runtime.Remoting 
+	
+	
+	public class ObjRef Extends DotNetObject
+		
+		public  method ObjRef
+		id, int
+		internal, @ObjRef
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class IButtonControl Extends DotNetObject
+		
+		public  method IButtonControl
+		id, int
+		internal, @IButtonControl
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public enum AutoSizeMode
+		
+		GrowAndShrink, 0
+		GrowOnly, 1
+	endenum
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public enum AutoValidate
+		
+		Disable, 0
+		EnablePreventFocusChange, 1
+		EnableAllowFocusChange, 2
+		Inherit, -1
+	endenum
+
+endnamespace
+namespace System.Drawing 
+	
+	
+	public class Color Extends DotNetObject
+		
+		public  method Color
+		id, int
+		internal, @Color
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public enum FormBorderStyle
+		
+		None, 0
+		FixedSingle, 1
+		Fixed3D, 2
+		FixedDialog, 3
+		Sizable, 4
+		FixedToolWindow, 5
+		SizableToolWindow, 6
+	endenum
+
+endnamespace
+namespace System.Drawing 
+	
+	
+	public class Icon Extends DotNetObject
+		
+		public  method Icon
+		id, int
+		internal, @Icon
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class MenuStrip Extends DotNetObject
+		
+		public  method MenuStrip
+		id, int
+		internal, @MenuStrip
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class Padding Extends DotNetObject
+		
+		public  method Padding
+		id, int
+		internal, @Padding
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class MainMenu Extends DotNetObject
+		
+		public  method MainMenu
+		id, int
+		internal, @MainMenu
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public enum SizeGripStyle
+		
+		Auto, 0
+		Show, 1
+		Hide, 2
+	endenum
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public enum FormStartPosition
+		
+		Manual, 0
+		CenterScreen, 1
+		WindowsDefaultLocation, 2
+		WindowsDefaultBounds, 3
+		CenterParent, 4
+	endenum
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public enum FormWindowState
+		
+		Normal, 0
+		Minimized, 1
+		Maximized, 2
+	endenum
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public enum AutoScaleMode
+		
+		None, 0
+		Font, 1
+		Dpi, 2
+		Inherit, 3
+	endenum
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class BindingContext Extends DotNetObject
+		
+		public  method BindingContext
+		id, int
+		internal, @BindingContext
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class HScrollProperties Extends DotNetObject
+		
+		public  method HScrollProperties
+		id, int
+		internal, @HScrollProperties
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class VScrollProperties Extends DotNetObject
+		
+		public  method VScrollProperties
+		id, int
+		internal, @VScrollProperties
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class ScrollableControl Extends DotNetObject
+		
+		public  method ScrollableControl
+		id, int
+		internal, @ScrollableControl
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+		
+		public class DockPaddingEdges Extends DotNetObject
+			
+			public  method DockPaddingEdges
+			id, int
+			internal, @DockPaddingEdges
+			
+			endparams 
+					parent(id, 0)
+			proc
+			
+			endmethod
+			
+			public method gennet_init_internal_handles, void
+			endparams
+			proc
+				begin
+					
+				end
+			
+			endmethod
+		
+		endclass
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class AccessibleObject Extends DotNetObject
+		
+		public  method AccessibleObject
+		id, int
+		internal, @AccessibleObject
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public enum AccessibleRole
+		
+		Default, -1
+		None, 0
+		TitleBar, 1
+		MenuBar, 2
+		ScrollBar, 3
+		Grip, 4
+		Sound, 5
+		Cursor, 6
+		Caret, 7
+		Alert, 8
+		Window, 9
+		Client, 10
+		MenuPopup, 11
+		MenuItem, 12
+		ToolTip, 13
+		Application, 14
+		Document, 15
+		Pane, 16
+		Chart, 17
+		Dialog, 18
+		Border, 19
+		Grouping, 20
+		Separator, 21
+		ToolBar, 22
+		StatusBar, 23
+		Table, 24
+		ColumnHeader, 25
+		RowHeader, 26
+		Column, 27
+		Row, 28
+		Cell, 29
+		Link, 30
+		HelpBalloon, 31
+		Character, 32
+		List, 33
+		ListItem, 34
+		Outline, 35
+		OutlineItem, 36
+		PageTab, 37
+		PropertyPage, 38
+		Indicator, 39
+		Graphic, 40
+		StaticText, 41
+		Text, 42
+		PushButton, 43
+		CheckButton, 44
+		RadioButton, 45
+		ComboBox, 46
+		DropList, 47
+		ProgressBar, 48
+		Dial, 49
+		HotkeyField, 50
+		Slider, 51
+		SpinButton, 52
+		Diagram, 53
+		Animation, 54
+		Equation, 55
+		ButtonDropDown, 56
+		ButtonMenu, 57
+		ButtonDropDownGrid, 58
+		WhiteSpace, 59
+		PageTabList, 60
+		Clock, 61
+		SplitButton, 62
+		IpAddress, 63
+		OutlineButton, 64
+	endenum
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public enum AnchorStyles
+		
+		Top, 1
+		Bottom, 2
+		Left, 4
+		Right, 8
+		None, 0
+	endenum
+
+endnamespace
+namespace System.Windows.Forms.Layout 
+	
+	
+	public class LayoutEngine Extends DotNetObject
+		
+		public  method LayoutEngine
+		id, int
+		internal, @LayoutEngine
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Drawing 
+	
+	
+	public class Image Extends DotNetObject
+		
+		public  method Image
+		id, int
+		internal, @Image
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public enum ImageLayout
+		
+		None, 0
+		Tile, 1
+		Center, 2
+		Stretch, 3
+		Zoom, 4
+	endenum
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class ContextMenu Extends DotNetObject
+		
+		public  method ContextMenu
+		id, int
+		internal, @ContextMenu
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class ContextMenuStrip Extends DotNetObject
+		
+		public  method ContextMenuStrip
+		id, int
+		internal, @ContextMenuStrip
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class Cursor Extends DotNetObject
+		
+		public  method Cursor
+		id, int
+		internal, @Cursor
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class ControlBindingsCollection Extends DotNetObject
+		
+		public  method ControlBindingsCollection
+		id, int
+		internal, @ControlBindingsCollection
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public enum DockStyle
+		
+		None, 0
+		Top, 1
+		Bottom, 2
+		Left, 3
+		Right, 4
+		Fill, 5
+	endenum
+
+endnamespace
+namespace System.Drawing 
+	
+	
+	public class Font Extends DotNetObject
+		
+		public  method Font
+		id, int
+		internal, @Font
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System 
+	
+	
+	public class IntPtr Extends DotNetObject
+		
+		public  method IntPtr
+		id, int
+		internal, @IntPtr
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public enum RightToLeft
+		
+		No, 0
+		Yes, 1
+		Inherit, 2
+	endenum
+
+endnamespace
+namespace System__ 
+	
+	
+	public class af_System__
+		
+			private static InternalDetails__Data, @DotNetAssembly
+				public static property Property__, @DotNetAssembly
+				method get
+				proc
+				if(InternalDetails__Data == ^NULL)
+					InternalDetails__Data = new DotNetAssembly("System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089")
+				mreturn InternalDetails__Data
+				endmethod
+				endproperty
+				
+	
+	endclass
+
+endnamespace
+namespace System.ComponentModel 
+	
+	
+	public class ISite Extends DotNetObject
+		
+		public  method ISite
+		id, int
+		internal, @ISite
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class IWindowTarget Extends DotNetObject
+		
+		public  method IWindowTarget
+		id, int
+		internal, @IWindowTarget
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public enum ImeMode
+		
+		Inherit, -1
+		NoControl, 0
+		On, 1
+		Off, 2
+		Disable, 3
+		Hiragana, 4
+		Katakana, 5
+		KatakanaHalf, 6
+		AlphaFull, 7
+		Alpha, 8
+		HangulFull, 9
+		Hangul, 10
+		Close, 11
+		OnHalf, 12
+	endenum
+
+endnamespace
+namespace System.ComponentModel 
+	
+	
+	public class IContainer Extends DotNetObject
+		
+		public  method IContainer
+		id, int
+		internal, @IContainer
+		
+		endparams 
+				parent(id, 0)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System 
+	
+	
+	public class EventHandler Extends DotNetDelegate
+		
+		public  method EventHandler
+		handle, @DotNetObject
+		methodName, @string
+		
+		endparams 
+				parent(mscorlib__.af_mscorlib__.Property__, "System.EventHandler",handle,methodName)
+		proc
+			begin
+				gennet_init_internal_handles()
+				
+			end
+		
+		endmethod
+		
+		public  method EventHandler
+		handle, @object
+		id, @string
+		
+		endparams 
+				parent(mscorlib__.af_mscorlib__.Property__,"System.EventHandler",handle,id)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.ComponentModel 
+	
+	
+	public class CancelEventHandler Extends DotNetDelegate
+		
+		public  method CancelEventHandler
+		handle, @DotNetObject
+		methodName, @string
+		
+		endparams 
+				parent(System__.af_System__.Property__, "System.ComponentModel.CancelEventHandler",handle,methodName)
+		proc
+			begin
+				gennet_init_internal_handles()
+				
+			end
+		
+		endmethod
+		
+		public  method CancelEventHandler
+		handle, @object
+		id, @string
+		
+		endparams 
+				parent(System__.af_System__.Property__,"System.ComponentModel.CancelEventHandler",handle,id)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class FormClosingEventHandler Extends DotNetDelegate
+		
+		public  method FormClosingEventHandler
+		handle, @DotNetObject
+		methodName, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__, "System.Windows.Forms.FormClosingEventHandler",handle,methodName)
+		proc
+			begin
+				gennet_init_internal_handles()
+				
+			end
+		
+		endmethod
+		
+		public  method FormClosingEventHandler
+		handle, @object
+		id, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__,"System.Windows.Forms.FormClosingEventHandler",handle,id)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class FormClosedEventHandler Extends DotNetDelegate
+		
+		public  method FormClosedEventHandler
+		handle, @DotNetObject
+		methodName, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__, "System.Windows.Forms.FormClosedEventHandler",handle,methodName)
+		proc
+			begin
+				gennet_init_internal_handles()
+				
+			end
+		
+		endmethod
+		
+		public  method FormClosedEventHandler
+		handle, @object
+		id, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__,"System.Windows.Forms.FormClosedEventHandler",handle,id)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class DpiChangedEventHandler Extends DotNetDelegate
+		
+		public  method DpiChangedEventHandler
+		handle, @DotNetObject
+		methodName, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__, "System.Windows.Forms.DpiChangedEventHandler",handle,methodName)
+		proc
+			begin
+				gennet_init_internal_handles()
+				
+			end
+		
+		endmethod
+		
+		public  method DpiChangedEventHandler
+		handle, @object
+		id, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__,"System.Windows.Forms.DpiChangedEventHandler",handle,id)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class ScrollEventHandler Extends DotNetDelegate
+		
+		public  method ScrollEventHandler
+		handle, @DotNetObject
+		methodName, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__, "System.Windows.Forms.ScrollEventHandler",handle,methodName)
+		proc
+			begin
+				gennet_init_internal_handles()
+				
+			end
+		
+		endmethod
+		
+		public  method ScrollEventHandler
+		handle, @object
+		id, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__,"System.Windows.Forms.ScrollEventHandler",handle,id)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class ControlEventHandler Extends DotNetDelegate
+		
+		public  method ControlEventHandler
+		handle, @DotNetObject
+		methodName, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__, "System.Windows.Forms.ControlEventHandler",handle,methodName)
+		proc
+			begin
+				gennet_init_internal_handles()
+				
+			end
+		
+		endmethod
+		
+		public  method ControlEventHandler
+		handle, @object
+		id, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__,"System.Windows.Forms.ControlEventHandler",handle,id)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class DragEventHandler Extends DotNetDelegate
+		
+		public  method DragEventHandler
+		handle, @DotNetObject
+		methodName, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__, "System.Windows.Forms.DragEventHandler",handle,methodName)
+		proc
+			begin
+				gennet_init_internal_handles()
+				
+			end
+		
+		endmethod
+		
+		public  method DragEventHandler
+		handle, @object
+		id, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__,"System.Windows.Forms.DragEventHandler",handle,id)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class GiveFeedbackEventHandler Extends DotNetDelegate
+		
+		public  method GiveFeedbackEventHandler
+		handle, @DotNetObject
+		methodName, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__, "System.Windows.Forms.GiveFeedbackEventHandler",handle,methodName)
+		proc
+			begin
+				gennet_init_internal_handles()
+				
+			end
+		
+		endmethod
+		
+		public  method GiveFeedbackEventHandler
+		handle, @object
+		id, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__,"System.Windows.Forms.GiveFeedbackEventHandler",handle,id)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class HelpEventHandler Extends DotNetDelegate
+		
+		public  method HelpEventHandler
+		handle, @DotNetObject
+		methodName, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__, "System.Windows.Forms.HelpEventHandler",handle,methodName)
+		proc
+			begin
+				gennet_init_internal_handles()
+				
+			end
+		
+		endmethod
+		
+		public  method HelpEventHandler
+		handle, @object
+		id, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__,"System.Windows.Forms.HelpEventHandler",handle,id)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class InvalidateEventHandler Extends DotNetDelegate
+		
+		public  method InvalidateEventHandler
+		handle, @DotNetObject
+		methodName, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__, "System.Windows.Forms.InvalidateEventHandler",handle,methodName)
+		proc
+			begin
+				gennet_init_internal_handles()
+				
+			end
+		
+		endmethod
+		
+		public  method InvalidateEventHandler
+		handle, @object
+		id, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__,"System.Windows.Forms.InvalidateEventHandler",handle,id)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class PaintEventHandler Extends DotNetDelegate
+		
+		public  method PaintEventHandler
+		handle, @DotNetObject
+		methodName, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__, "System.Windows.Forms.PaintEventHandler",handle,methodName)
+		proc
+			begin
+				gennet_init_internal_handles()
+				
+			end
+		
+		endmethod
+		
+		public  method PaintEventHandler
+		handle, @object
+		id, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__,"System.Windows.Forms.PaintEventHandler",handle,id)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class QueryContinueDragEventHandler Extends DotNetDelegate
+		
+		public  method QueryContinueDragEventHandler
+		handle, @DotNetObject
+		methodName, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__, "System.Windows.Forms.QueryContinueDragEventHandler",handle,methodName)
+		proc
+			begin
+				gennet_init_internal_handles()
+				
+			end
+		
+		endmethod
+		
+		public  method QueryContinueDragEventHandler
+		handle, @object
+		id, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__,"System.Windows.Forms.QueryContinueDragEventHandler",handle,id)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class KeyEventHandler Extends DotNetDelegate
+		
+		public  method KeyEventHandler
+		handle, @DotNetObject
+		methodName, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__, "System.Windows.Forms.KeyEventHandler",handle,methodName)
+		proc
+			begin
+				gennet_init_internal_handles()
+				
+			end
+		
+		endmethod
+		
+		public  method KeyEventHandler
+		handle, @object
+		id, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__,"System.Windows.Forms.KeyEventHandler",handle,id)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class KeyPressEventHandler Extends DotNetDelegate
+		
+		public  method KeyPressEventHandler
+		handle, @DotNetObject
+		methodName, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__, "System.Windows.Forms.KeyPressEventHandler",handle,methodName)
+		proc
+			begin
+				gennet_init_internal_handles()
+				
+			end
+		
+		endmethod
+		
+		public  method KeyPressEventHandler
+		handle, @object
+		id, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__,"System.Windows.Forms.KeyPressEventHandler",handle,id)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class LayoutEventHandler Extends DotNetDelegate
+		
+		public  method LayoutEventHandler
+		handle, @DotNetObject
+		methodName, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__, "System.Windows.Forms.LayoutEventHandler",handle,methodName)
+		proc
+			begin
+				gennet_init_internal_handles()
+				
+			end
+		
+		endmethod
+		
+		public  method LayoutEventHandler
+		handle, @object
+		id, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__,"System.Windows.Forms.LayoutEventHandler",handle,id)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class MouseEventHandler Extends DotNetDelegate
+		
+		public  method MouseEventHandler
+		handle, @DotNetObject
+		methodName, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__, "System.Windows.Forms.MouseEventHandler",handle,methodName)
+		proc
+			begin
+				gennet_init_internal_handles()
+				
+			end
+		
+		endmethod
+		
+		public  method MouseEventHandler
+		handle, @object
+		id, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__,"System.Windows.Forms.MouseEventHandler",handle,id)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class PreviewKeyDownEventHandler Extends DotNetDelegate
+		
+		public  method PreviewKeyDownEventHandler
+		handle, @DotNetObject
+		methodName, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__, "System.Windows.Forms.PreviewKeyDownEventHandler",handle,methodName)
+		proc
+			begin
+				gennet_init_internal_handles()
+				
+			end
+		
+		endmethod
+		
+		public  method PreviewKeyDownEventHandler
+		handle, @object
+		id, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__,"System.Windows.Forms.PreviewKeyDownEventHandler",handle,id)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
+namespace System.Windows.Forms 
+	
+	
+	public class UICuesEventHandler Extends DotNetDelegate
+		
+		public  method UICuesEventHandler
+		handle, @DotNetObject
+		methodName, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__, "System.Windows.Forms.UICuesEventHandler",handle,methodName)
+		proc
+			begin
+				gennet_init_internal_handles()
+				
+			end
+		
+		endmethod
+		
+		public  method UICuesEventHandler
+		handle, @object
+		id, @string
+		
+		endparams 
+				parent(System_Windows_Forms__.af_Forms__.Property__,"System.Windows.Forms.UICuesEventHandler",handle,id)
+		proc
+		
+		endmethod
+		
+		public method gennet_init_internal_handles, void
+		endparams
+		proc
+			begin
+				
+			end
+		
+		endmethod
+	
+	endclass
+
+endnamespace
 namespace PresentationFramework__ 
 	
 	
@@ -6791,33 +16767,6 @@ namespace System.Windows
 		public  method RoutedEvent
 		id, int
 		internal, @RoutedEvent
-		
-		endparams 
-				parent(id, 0)
-		proc
-		
-		endmethod
-		
-		public method gennet_init_internal_handles, void
-		endparams
-		proc
-			begin
-				
-			end
-		
-		endmethod
-	
-	endclass
-
-endnamespace
-namespace System 
-	
-	
-	public class Delegate Extends DotNetObject
-		
-		public  method Delegate
-		id, int
-		internal, @Delegate
 		
 		endparams 
 				parent(id, 0)
@@ -8001,47 +17950,6 @@ namespace System.Windows
 		
 		endparams 
 				parent(PresentationFramework__.af_PresentationFramework__.Property__,"System.Windows.SizeChangedEventHandler",handle,id)
-		proc
-		
-		endmethod
-		
-		public method gennet_init_internal_handles, void
-		endparams
-		proc
-			begin
-				
-			end
-		
-		endmethod
-	
-	endclass
-
-endnamespace
-namespace System 
-	
-	
-	public class EventHandler Extends DotNetDelegate
-		
-		public  method EventHandler
-		handle, @DotNetObject
-		methodName, @string
-		
-		endparams 
-				parent(mscorlib__.af_mscorlib__.Property__, "System.EventHandler",handle,methodName)
-		proc
-			begin
-				gennet_init_internal_handles()
-				
-			end
-		
-		endmethod
-		
-		public  method EventHandler
-		handle, @object
-		id, @string
-		
-		endparams 
-				parent(mscorlib__.af_mscorlib__.Property__,"System.EventHandler",handle,id)
 		proc
 		
 		endmethod

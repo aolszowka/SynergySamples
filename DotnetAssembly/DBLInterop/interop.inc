@@ -1,4 +1,9 @@
 Import System
+Import System.Windows.Forms
+Import System.Drawing
+Import System.Runtime.Remoting
+Import System.Windows.Forms.Layout
+Import System.ComponentModel
 Import System.Windows.Media.Animation
 Import System.Windows.Data
 Import System.Windows
@@ -12,6 +17,9 @@ Import System.Windows.Threading
 Import CSharpInterop
 Import CSharpInterop__
 Import mscorlib__
+Import System_Windows_Forms__
+Import System_Drawing__
+Import System__
 Import PresentationFramework__
 Import PresentationCore__
 Import WindowsBase__
